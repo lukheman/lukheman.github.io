@@ -1,7 +1,7 @@
 +++
 title = 'Pengenalan Bahasa Pemrograman Python'
 date = 2024-08-05T17:54:41+08:00
-draft = true
+draft = false
 tags = ['pemrograman', 'python']
 +++
 

@@ -1,11 +1,12 @@
 +++
 title = 'Instalasi'
 date = 2024-08-07T12:09:53+08:00
-draft = true
+draft = false
+tags = ['pemrograman', 'python']
 +++
 
 Python termasuk ke dalam bahasa pemrograman tingkat tinggi yang mampu berjalan di atas berbagai
-sistem operasi, entah itu Windows ataupun Linux. 
+sistem operasi, entah itu Windows ataupun Linux.
 
 Untuk mengeksekusi kode Python, Anda perlu menginstall Interpreter Python di sistem operasi yang
 anda gunakan. Interpreter berfungsi untuk mengubah kode python yang Anda tulis menjadi Kode mesin
@@ -85,4 +86,4 @@ Jika proses instalasi telah selesai, Anda bisa memastikan versi python yang teri
 perintah `python --version`.
 
 Sampai di sini anda telah berhasil menginstall python dan siap untuk menulis *codingan*. Anda akan
-belajar hal itu di tutorial selanjutnya. 
+belajar hal itu di tutorial selanjutnya.
