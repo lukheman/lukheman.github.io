@@ -1,0 +1,105 @@
+baseURL = "https://pandas-id.github.io/"
+title = "Lukhe"
+author = "Akmal"
+copyright = "Akmal"
+paginate = 10
+languageCode = "id"
+theme = "PaperMod"
+
+[markup]
+  _merge = "deep"
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "blog"
+
+  [params.header]
+    logo = "logo.webp"
+
+  [params.footer]
+    since = 2023
+    poweredby = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tutorial"
+    name = "Tutorial"
+    pageRef = "/tutorial"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/about"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    pageRef = "/archive"
+    weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[params.ShowCodeCopyButtons]
+enabled = true
+
+[params.assets]
+disableHLJS = true
+
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = true
+style = "onedark"
+
+[params.profileMode]
+enabled = true
+subtitle = "Linux Enthuasist - Software Developer - Computer Scientist"
+# ShowCodeCopyButtons = true
+# imageUrl = "<image link>"
+# imageTitle = "<title of image as alt>"
+# imageWidth = 120
+# imageHeight = 120
+
+
+  [[params.profileMode.buttons]]
+  name = "Blog"
+  url = "/blog"
+
+  [[params.profileMode.buttons]]
+  name = "Tutorial"
+  url = "/tutorial"
+
+  [[params.profileMode.buttons]]
+  name = "Archive"
+  url = "/archive"
+
+[[params.socialIcons]]
+name = "Instagram"
+url = "https://instagram.com/akmalkhadafi"
+
+[[params.socialIcons]]
+name = "Github"
+url = "https://github.com/lukheman"
+
+[[params.socialIcons]]
+name = "Telegram"
+url = "https://t.me/lukheman"

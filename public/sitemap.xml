@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://pandas-id.github.io/</loc>
+    <lastmod>2024-08-09T16:47:54+08:00</lastmod>
+  </url><url>
+    <loc>https://pandas-id.github.io/blog/</loc>
+    <lastmod>2024-08-09T13:19:00+08:00</lastmod>
+  </url><url>
+    <loc>https://pandas-id.github.io/tutorial/python/</loc>
+    <lastmod>2024-08-07T12:09:53+08:00</lastmod>
+  </url><url>
+    <loc>https://pandas-id.github.io/tutorial/</loc>
+    <lastmod>2024-08-07T12:09:53+08:00</lastmod>
+  </url><url>
+    <loc>https://pandas-id.github.io/archive/</loc>
+  </url><url>
+    <loc>https://pandas-id.github.io/categories/</loc>
+  </url><url>
+    <loc>https://pandas-id.github.io/series/</loc>
+  </url><url>
+    <loc>https://pandas-id.github.io/tags/</loc>
+  </url>
+</urlset>

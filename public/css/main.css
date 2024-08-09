@@ -1,0 +1,133 @@
+:root {
+  --foreground: #ABB2BF;
+  --background: #282c34;
+  --red: #e86671;
+  --green: #98c379;
+  --blue: #61afef;
+  --orange: #d19a66;
+  --yellow: #e5c07b;
+  --cyan: #56b6c2;
+  --purple: #c678dd;
+  --grey: #5c6370;
+  --white: #dcdfe4;
+  --black: #181a1f;
+}
+
+.is-blue {
+  background-color: var(--blue);
+  color: var(--background);
+}
+
+.is-green {
+  background-color: var(--green);
+  color: var(--background);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+  display: flex;
+  color: var(--background);
+  background-color: var(--grey);
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 20px; */
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  align-items: center;
+  /* border: 1px solid #000; */
+  list-style-type: none;
+  font-size: 1.1rem;
+}
+
+header nav ul li:hover {
+  border-bottom: 2px solid var(--blue);
+} 
+
+ul li a {
+  color: var(--background);
+  text-transform: uppercase;
+}
+
+div.site {
+  margin-top: 100px;
+  /* border: 1px solid #000; */
+}
+
+div.site h1 {
+  text-align: center;
+}
+
+div.site ul {
+  text-align: center;
+}
+
+div.site ul li {
+  display: inline-block;
+  /* margin: 0 20px; */
+  margin-right: 25px;
+  list-style-type: none;
+  /* border: 1px solid #000; */
+}
+
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+a {
+  color: var(--grey);
+  text-decoration: none;
+}
+
+.container {
+  width: 70%;
+  /* border: 1px solid #000; */
+  margin: 0 auto;
+  background-color: var(--background);
+  color: var(--foreground);
+  padding: 20px;
+}
+
+article.post-entry {
+  border: 1px solid var(--grey);
+  margin: 25px 0;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.badge {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+/* single page */
+p {
+  margin: 10px 0;
+}
+
+code {
+  padding: 8px;
+  padding-left: 20px;
+}

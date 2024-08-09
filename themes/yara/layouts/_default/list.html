@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages }}
+    <article class="post-entry">
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <!-- <p>{{ .Summary }}</p> -->
+      {{ .Summary }}
+      <p>
+        <span class="badge is-blue">{{ .Date.Format "January 2, 2006" }}</span>
+      {{ range .Params.tags }}
+        <span class="badge is-green">#{{ . }}</span>
+      {{ end }}
+      </p>
+
+    </article>
+  {{ end }}
+{{ end }}
