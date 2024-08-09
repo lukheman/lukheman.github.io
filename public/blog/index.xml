@@ -2,12 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blogs on Lukhe</title>
-    <link>https://pandas-id.github.io/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blogs on Lukhe</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://pandas-id.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Aug 2024 13:19:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/blog/linux/</link>
+      <pubDate>Fri, 09 Aug 2024 13:19:00 +0800</pubDate>
+      <guid>http://localhost:1313/blog/linux/</guid>
+      <description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum autem exercitationem neque magni ut eius, nihil aut mollitia. At iusto hic dolores dolore quisquam! Consequuntur iure rem repellat reprehenderit numquam?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima maxime, magnam incidunt dignissimos laborum ad. Odio ratione autem totam unde nobis. Error, laborum sapiente accusantium aut amet dolorem vel sunt.</description>
+    </item>
+    <item>
+      <title>Lorem</title>
+      <link>http://localhost:1313/blog/lorem/</link>
+      <pubDate>Fri, 09 Aug 2024 13:18:14 +0800</pubDate>
+      <guid>http://localhost:1313/blog/lorem/</guid>
+      <description>akmal Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consectetur veniam inventore ipsam! Sapiente, quod molestias blanditiis sed esse aliquid reiciendis enim at dolor earum, quas tempore necessitatibus et unde?</description>
+    </item>
   </channel>
 </rss>

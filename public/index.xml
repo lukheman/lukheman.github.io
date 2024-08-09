@@ -2,12 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lukhe</title>
-    <link>https://pandas-id.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Lukhe</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://pandas-id.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Aug 2024 16:47:54 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 09 Aug 2024 16:47:54 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Tentang Blog Blog ini menjadi media saya dalam mendokumentasikan kegiatan kegiatan sehari-hari saya sebagai seorang Software Developer. Blog ini akan berisi berbagai tulisan saya tentang Bahasa Pemrograman, Jaringan Komputer, Database Management System, machile learning, dan segala sesuatu yang berkaitan dengan Ilmu Komputer.</description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/blog/linux/</link>
+      <pubDate>Fri, 09 Aug 2024 13:19:00 +0800</pubDate>
+      <guid>http://localhost:1313/blog/linux/</guid>
+      <description>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum autem exercitationem neque magni ut eius, nihil aut mollitia. At iusto hic dolores dolore quisquam! Consequuntur iure rem repellat reprehenderit numquam?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima maxime, magnam incidunt dignissimos laborum ad. Odio ratione autem totam unde nobis. Error, laborum sapiente accusantium aut amet dolorem vel sunt.</description>
+    </item>
+    <item>
+      <title>Lorem</title>
+      <link>http://localhost:1313/blog/lorem/</link>
+      <pubDate>Fri, 09 Aug 2024 13:18:14 +0800</pubDate>
+      <guid>http://localhost:1313/blog/lorem/</guid>
+      <description>akmal Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consectetur veniam inventore ipsam! Sapiente, quod molestias blanditiis sed esse aliquid reiciendis enim at dolor earum, quas tempore necessitatibus et unde?</description>
+    </item>
+    <item>
+      <title>Instalasi</title>
+      <link>http://localhost:1313/tutorial/python/instalasi/</link>
+      <pubDate>Wed, 07 Aug 2024 12:09:53 +0800</pubDate>
+      <guid>http://localhost:1313/tutorial/python/instalasi/</guid>
+      <description>Python termasuk ke dalam bahasa pemrograman tingkat tinggi yang mampu berjalan di atas berbagai sistem operasi, entah itu Windows ataupun Linux.
+Untuk mengeksekusi kode Python, Anda perlu menginstall Interpreter Python di sistem operasi yang anda gunakan. Interpreter berfungsi untuk mengubah kode python yang Anda tulis menjadi Kode mesin yang dimengerti oleh komputer.
+Pada tutorial ini saya akan menjelaskan tahapan instalasi python pada sistem operasi Windows dan linux.
+1. Mengekstrak Binary File Cara yang pertama ini berlaku untuk Anda yang menggunakan Windows dan linux.</description>
+    </item>
+    <item>
+      <title>Pengenalan Bahasa Pemrograman Python</title>
+      <link>http://localhost:1313/tutorial/python/pengenalan/</link>
+      <pubDate>Mon, 05 Aug 2024 17:54:41 +0800</pubDate>
+      <guid>http://localhost:1313/tutorial/python/pengenalan/</guid>
+      <description>&lt;p&gt;Python adalah salah satu bahasa Pemrograman tingkat tinggi (High Level) yang dibuat pada tahun akhir
+tahun 1980 oleh Guido Van Rossum. Bahasa Pemrograman Python menekankan keterbacaan kode dengan
+penggunakan &lt;em&gt;whitespace&lt;/em&gt; yang signifikan. Python juga mendukung berbagai paradigma pemrograman
+seperti &lt;em&gt;Object Oriented Programming&lt;/em&gt; (OOP), &lt;em&gt;Fungsional Programming&lt;/em&gt;, maupun prosedural.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
