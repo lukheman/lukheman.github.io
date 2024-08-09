@@ -1,7 +1,7 @@
 +++
 title = 'Lorem'
 date = 2024-08-09T13:18:14+08:00
-draft = true
+draft = false
 +++
 
 # akmal
