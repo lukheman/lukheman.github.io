@@ -1,7 +1,6 @@
 +++
 title = 'About'
 date = 2024-08-09T16:47:54+08:00
-draft = true
 +++
 
 # Tentang Blog

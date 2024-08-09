@@ -7,15 +7,8 @@
     <generator>Hugo -- 0.131.0</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
-    <lastBuildDate>Fri, 09 Aug 2024 16:47:54 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 09 Aug 2024 13:19:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Fri, 09 Aug 2024 16:47:54 +0800</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>Tentang Blog Blog ini menjadi media saya dalam mendokumentasikan kegiatan kegiatan sehari-hari saya sebagai seorang Software Developer. Blog ini akan berisi berbagai tulisan saya tentang Bahasa Pemrograman, Jaringan Komputer, Database Management System, machile learning, dan segala sesuatu yang berkaitan dengan Ilmu Komputer.</description>
-    </item>
     <item>
       <title>Linux</title>
       <link>http://localhost:1313/blog/linux/</link>
