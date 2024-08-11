@@ -1,13 +1,12 @@
 +++
 title = 'Tmux Sebagai Terminal Manager'
 date = 2024-08-10T23:49:33+08:00
-draft = true
 +++
 
 Sebagai seorang Programmer, pastinya kita sudah tidak asing dengan terminal dan *Command Line
 Interface*. Keduanya adalah dua hal yang saling terkait, sebab untuk mengakses CLI, Kita harus
 menggunakan terminal. Entah itu Alacritty, Kitty, st, dan lain sebagainya. Tak jarang pula kita
-membuka banyak terminal untuk menjalankan berbagai program/proses yang berbeda secara bersamaan. Seperti 
+membuka banyak terminal untuk menjalankan berbagai program/proses yang berbeda secara bersamaan. Seperti
 menjalankan server, memantau proses yang berjalan di latar belakang, *ngoding* (yah ngoding di terminal dengan neovim),
 debugging, dan lain sebagainya. Tentunya hal ini sangat merepotkan dan sangat tidak efisien jika
 kita harus menjalankan terminal berkali-kali.
@@ -50,7 +49,7 @@ tmux new -s namasesi
 Setelah memasukan perintah di atas, Anda akan langsung berpindah ke sesi tmux dan Anda siap
 menggunakan terminal Anda seperti biasanya.
 
-![Tmux Starter Session](/img/tmux-starter.png) 
+![Tmux Starter Session](/img/tmux-starter.png)
 
 Ketika membuat sesi baru, tmux secara otomatis juga membuat window dan pane baru. Jadi perintah di
 atas, selain membuat sesi juga membuat *window* yang didalamnya ada *pane*.
@@ -66,10 +65,10 @@ membuat window baru, Anda bisa menggunakan kombinasi key `ctrl-b + c`.
 Perhatikan bagian bawah dari gambar di atas. Sekarang terdapat 2 window dengan nama yang sama yaitu
 *fish*. Nama itu diambil dari default shell yang Anda gunakan. Anda bisa mengubah nama window yang
 aktif dengan masuk ke *command mode*. Caranya dengan menekan `ctrl-b + :`. Lalu masukkan
-perintah `rename-window windowbaru`. 
-![Tmux Rename Window](/img/tmux-rename-window.png) 
+perintah `rename-window windowbaru`.
+![Tmux Rename Window](/img/tmux-rename-window.png)
 
-![Tmux Rename Window](/img/tmux-rename-window-result.png) 
+![Tmux Rename Window](/img/tmux-rename-window-result.png)
 
 `windowbaru` akan menjadi nama dari window saat ini (window aktif).
 
@@ -94,7 +93,7 @@ Seperti yang sudah saya jelaskan sebelumnya bahwa di dalam window kita bisa memb
 Untuk membuat pane secara *vertical* gunakan perintah `ctrl-b + %`. Hasilnya akan terlihat seperti
 di bawah.
 
-![Tmux Vertical Pane](/img/tmux-vertical-pane.png) 
+![Tmux Vertical Pane](/img/tmux-vertical-pane.png)
 
 Selain *vertical pane* Anda juga dapat membuat *horizontal pane*. Perintahnya adalah `ctrl-b + "`
 dan hasilnya akan seperti gambar di bawah.
