@@ -1,5 +1,5 @@
 +++
-title = 'Instalasi'
+title = 'Instalasi Python'
 date = 2024-08-07T12:09:53+08:00
 draft = false
 tags = ['pemrograman', 'python']

@@ -30,10 +30,10 @@ kita harus menjalankan terminal berkali-kali.&lt;/p&gt;</description>
       <description>Tentang Blog Blog ini menjadi media saya dalam mendokumentasikan kegiatan kegiatan sehari-hari saya sebagai seorang Software Developer. Blog ini akan berisi berbagai tulisan saya tentang Bahasa Pemrograman, Jaringan Komputer, Database Management System, machile learning, dan segala sesuatu yang berkaitan dengan Ilmu Komputer.</description>
     </item>
     <item>
-      <title>Instalasi</title>
-      <link>http://localhost:1313/tutorial/python/instalasi/</link>
+      <title>Instalasi Python</title>
+      <link>http://localhost:1313/tutorial/python/instalasi-python/</link>
       <pubDate>Wed, 07 Aug 2024 12:09:53 +0800</pubDate>
-      <guid>http://localhost:1313/tutorial/python/instalasi/</guid>
+      <guid>http://localhost:1313/tutorial/python/instalasi-python/</guid>
       <description>Python termasuk ke dalam bahasa pemrograman tingkat tinggi yang mampu berjalan di atas berbagai sistem operasi, entah itu Windows ataupun Linux.
 Untuk mengeksekusi kode Python, Anda perlu menginstall Interpreter Python di sistem operasi yang anda gunakan. Interpreter berfungsi untuk mengubah kode python yang Anda tulis menjadi Kode mesin yang dimengerti oleh komputer.
 Pada tutorial ini saya akan menjelaskan tahapan instalasi python pada sistem operasi Windows dan linux.

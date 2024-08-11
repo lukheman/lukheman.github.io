@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 07 Aug 2024 12:09:53 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tutorial/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Instalasi</title>
-      <link>http://localhost:1313/tutorial/python/instalasi/</link>
+      <title>Instalasi Python</title>
+      <link>http://localhost:1313/tutorial/python/instalasi-python/</link>
       <pubDate>Wed, 07 Aug 2024 12:09:53 +0800</pubDate>
-      <guid>http://localhost:1313/tutorial/python/instalasi/</guid>
+      <guid>http://localhost:1313/tutorial/python/instalasi-python/</guid>
       <description>Python termasuk ke dalam bahasa pemrograman tingkat tinggi yang mampu berjalan di atas berbagai sistem operasi, entah itu Windows ataupun Linux.
 Untuk mengeksekusi kode Python, Anda perlu menginstall Interpreter Python di sistem operasi yang anda gunakan. Interpreter berfungsi untuk mengubah kode python yang Anda tulis menjadi Kode mesin yang dimengerti oleh komputer.
 Pada tutorial ini saya akan menjelaskan tahapan instalasi python pada sistem operasi Windows dan linux.
