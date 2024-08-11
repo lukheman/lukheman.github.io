@@ -73,7 +73,7 @@ style = "onedark"
 [params.profileMode]
 enabled = true
 # subtitle = "Linux Enthuasist - Software Developer - Computer Scientist"
-subtitle = "Just a normal people who are instrested in Programming and Computer Science"
+subtitle = "*Just a normal people who are instrested in Programming and Computer Science*"
 # ShowCodeCopyButtons = true
 # imageUrl = "<image link>"
 # imageTitle = "<title of image as alt>"
