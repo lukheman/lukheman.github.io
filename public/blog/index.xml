@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Lukhe</title>
     <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blogs on Lukhe</description>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
     <lastBuildDate>Sat, 10 Aug 2024 23:49:33 +0800</lastBuildDate>
@@ -14,13 +14,7 @@
       <link>http://localhost:1313/blog/tmux-sebagai-terminal-manager/</link>
       <pubDate>Sat, 10 Aug 2024 23:49:33 +0800</pubDate>
       <guid>http://localhost:1313/blog/tmux-sebagai-terminal-manager/</guid>
-      <description>&lt;p&gt;Sebagai seorang Programmer, pastinya kita sudah tidak asing dengan terminal dan &lt;em&gt;Command Line
-Interface&lt;/em&gt;. Keduanya adalah dua hal yang saling terkait, sebab untuk mengakses CLI, Kita harus
-menggunakan terminal. Entah itu Alacritty, Kitty, st, dan lain sebagainya. Tak jarang pula kita
-membuka banyak terminal untuk menjalankan berbagai program/proses yang berbeda secara bersamaan. Seperti
-menjalankan server, memantau proses yang berjalan di latar belakang, &lt;em&gt;ngoding&lt;/em&gt; (yah ngoding di terminal dengan neovim),
-debugging, dan lain sebagainya. Tentunya hal ini sangat merepotkan dan sangat tidak efisien jika
-kita harus menjalankan terminal berkali-kali.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Sebagai seorang Programmer, pastinya kita sudah tidak asing dengan terminal dan &lt;em&gt;Command Line&#xA;Interface&lt;/em&gt;. Keduanya adalah dua hal yang saling terkait, sebab untuk mengakses CLI, Kita harus&#xA;menggunakan terminal. Entah itu Alacritty, Kitty, st, dan lain sebagainya. Tak jarang pula kita&#xA;membuka banyak terminal untuk menjalankan berbagai program/proses yang berbeda secara bersamaan. Seperti&#xA;menjalankan server, memantau proses yang berjalan di latar belakang, &lt;em&gt;ngoding&lt;/em&gt; (yah ngoding di terminal dengan neovim),&#xA;debugging, dan lain sebagainya. Tentunya hal ini sangat merepotkan dan sangat tidak efisien jika&#xA;kita harus menjalankan terminal berkali-kali.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
