@@ -1,34 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python on Lukhe</title>
-    <link>http://localhost:1313/tutorial/python/</link>
+    <link>https://lukheman.github.io/tutorial/python/</link>
     <description>Recent content in Python on Lukhe</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.133.0</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
     <lastBuildDate>Thu, 05 Sep 2024 20:29:14 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tutorial/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lukheman.github.io/tutorial/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Program Pertama</title>
-      <link>http://localhost:1313/tutorial/python/program-pertama/</link>
+      <link>https://lukheman.github.io/tutorial/python/program-pertama/</link>
       <pubDate>Thu, 05 Sep 2024 20:29:14 +0800</pubDate>
-      <guid>http://localhost:1313/tutorial/python/program-pertama/</guid>
-      <description>Pada tutorial sebelumnya Anda telah belajar tentang bagaimana cara menginstall python di berbagai sistem operasi. Sekarang Anda akan belajar membuat program python sederhana.&#xA;Buat file script.py</description>
+      <guid>https://lukheman.github.io/tutorial/python/program-pertama/</guid>
+      <description>Pada tutorial sebelumnya Anda telah belajar tentang bagaimana cara menginstall python di berbagai sistem operasi. Sekarang Anda akan belajar membuat program python sederhana.
+Buat baru lalu isi dengan text di bawah
+1 2 # script.py print(&amp;#39;Hello World&amp;#39;) Buka terminal lalu eksekusi file dengan perintah
+1 python script.py Output:
+1 Hello World Selamat Anda telah berhasil membuat program pertama Anda
+Penjelasan Program Dalam python perintah print digunakan untuk menampilkan nilai ke layar.</description>
     </item>
     <item>
       <title>Instalasi Python</title>
-      <link>http://localhost:1313/tutorial/python/instalasi-python/</link>
+      <link>https://lukheman.github.io/tutorial/python/instalasi-python/</link>
       <pubDate>Wed, 07 Aug 2024 12:09:53 +0800</pubDate>
-      <guid>http://localhost:1313/tutorial/python/instalasi-python/</guid>
-      <description>Python termasuk ke dalam bahasa pemrograman tingkat tinggi yang mampu berjalan di atas berbagai sistem operasi, entah itu Windows ataupun Linux.&#xA;Untuk mengeksekusi kode Python, Anda perlu menginstall Interpreter Python di sistem operasi yang anda gunakan. Interpreter berfungsi untuk mengubah kode python yang Anda tulis menjadi Kode mesin yang dimengerti oleh komputer.&#xA;Pada tutorial ini saya akan menjelaskan tahapan instalasi python pada sistem operasi Windows dan linux.&#xA;1. Mengekstrak Binary File Cara yang pertama ini berlaku untuk Anda yang menggunakan Windows dan linux.</description>
+      <guid>https://lukheman.github.io/tutorial/python/instalasi-python/</guid>
+      <description>Python termasuk ke dalam bahasa pemrograman tingkat tinggi yang mampu berjalan di atas berbagai sistem operasi, entah itu Windows ataupun Linux.
+Untuk mengeksekusi kode Python, Anda perlu menginstall Interpreter Python di sistem operasi yang anda gunakan. Interpreter berfungsi untuk mengubah kode python yang Anda tulis menjadi Kode mesin yang dimengerti oleh komputer.
+Pada tutorial ini saya akan menjelaskan tahapan instalasi python pada sistem operasi Windows dan linux.
+1. Mengekstrak Binary File Cara yang pertama ini berlaku untuk Anda yang menggunakan Windows dan linux.</description>
     </item>
     <item>
       <title>Pengenalan Bahasa Pemrograman Python</title>
-      <link>http://localhost:1313/tutorial/python/pengenalan/</link>
+      <link>https://lukheman.github.io/tutorial/python/pengenalan/</link>
       <pubDate>Mon, 05 Aug 2024 17:54:41 +0800</pubDate>
-      <guid>http://localhost:1313/tutorial/python/pengenalan/</guid>
-      <description>&lt;p&gt;Python adalah salah satu bahasa Pemrograman tingkat tinggi (High Level) yang dibuat pada tahun akhir&#xA;tahun 1980 oleh Guido Van Rossum. Bahasa Pemrograman Python menekankan keterbacaan kode dengan&#xA;penggunakan &lt;em&gt;whitespace&lt;/em&gt; yang signifikan. Python juga mendukung berbagai paradigma pemrograman&#xA;seperti &lt;em&gt;Object Oriented Programming&lt;/em&gt; (OOP), &lt;em&gt;Fungsional Programming&lt;/em&gt;, maupun prosedural.&lt;/p&gt;</description>
+      <guid>https://lukheman.github.io/tutorial/python/pengenalan/</guid>
+      <description>&lt;p&gt;Python adalah salah satu bahasa Pemrograman tingkat tinggi (High Level) yang dibuat pada tahun akhir
+tahun 1980 oleh Guido Van Rossum. Bahasa Pemrograman Python menekankan keterbacaan kode dengan
+penggunakan &lt;em&gt;whitespace&lt;/em&gt; yang signifikan. Python juga mendukung berbagai paradigma pemrograman
+seperti &lt;em&gt;Object Oriented Programming&lt;/em&gt; (OOP), &lt;em&gt;Fungsional Programming&lt;/em&gt;, maupun prosedural.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
