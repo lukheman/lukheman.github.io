@@ -2,40 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python on Lukhe</title>
-    <link>https://lukheman.github.io/tags/python/</link>
+    <link>http://localhost:1313/tags/python/</link>
     <description>Recent content in Python on Lukhe</description>
-    <generator>Hugo -- 0.133.0</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
     <lastBuildDate>Thu, 05 Sep 2024 20:29:14 +0800</lastBuildDate>
-    <atom:link href="https://lukheman.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Program Pertama</title>
-      <link>https://lukheman.github.io/tutorial/python/program-pertama/</link>
+      <link>http://localhost:1313/tutorial/python/program-pertama/</link>
       <pubDate>Thu, 05 Sep 2024 20:29:14 +0800</pubDate>
-      <guid>https://lukheman.github.io/tutorial/python/program-pertama/</guid>
-      <description>Pada tutorial sebelumnya Anda telah belajar tentang bagaimana cara menginstall python di berbagai sistem operasi. Sekarang Anda akan belajar membuat program python sederhana.
-Buat baru lalu isi dengan text di bawah
-1 2 # script.py print(&amp;#39;Hello World&amp;#39;) Buka terminal lalu eksekusi file dengan perintah
-1 python script.py Output:
-1 Hello World Selamat Anda telah berhasil membuat program pertama Anda
-Penjelasan Program Dalam python perintah print digunakan untuk menampilkan nilai ke layar.</description>
+      <guid>http://localhost:1313/tutorial/python/program-pertama/</guid>
+      <description>&lt;p&gt;Pada tutorial sebelumnya Anda telah belajar tentang bagaimana cara menginstall python di berbagai sistem operasi.
+Sekarang Anda akan belajar membuat program python sederhana.&lt;/p&gt;
+&lt;p&gt;Buat baru lalu isi dengan text di bawah&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# script.py&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e5c07b&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;Hello World&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Buka terminal lalu eksekusi file dengan perintah&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fish&#34; data-lang=&#34;fish&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#61afef;font-weight:bold&#34;&gt;python&lt;/span&gt; script.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Output:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Hello World
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Selamat Anda telah berhasil membuat program pertama Anda&lt;/p&gt;</description>
     </item>
     <item>
       <title>Instalasi Python</title>
-      <link>https://lukheman.github.io/tutorial/python/instalasi-python/</link>
+      <link>http://localhost:1313/tutorial/python/instalasi-python/</link>
       <pubDate>Wed, 07 Aug 2024 12:09:53 +0800</pubDate>
-      <guid>https://lukheman.github.io/tutorial/python/instalasi-python/</guid>
-      <description>Python termasuk ke dalam bahasa pemrograman tingkat tinggi yang mampu berjalan di atas berbagai sistem operasi, entah itu Windows ataupun Linux.
-Untuk mengeksekusi kode Python, Anda perlu menginstall Interpreter Python di sistem operasi yang anda gunakan. Interpreter berfungsi untuk mengubah kode python yang Anda tulis menjadi Kode mesin yang dimengerti oleh komputer.
-Pada tutorial ini saya akan menjelaskan tahapan instalasi python pada sistem operasi Windows dan linux.
-1. Mengekstrak Binary File Cara yang pertama ini berlaku untuk Anda yang menggunakan Windows dan linux.</description>
+      <guid>http://localhost:1313/tutorial/python/instalasi-python/</guid>
+      <description>&lt;p&gt;Python termasuk ke dalam bahasa pemrograman tingkat tinggi yang mampu berjalan di atas berbagai
+sistem operasi, entah itu Windows ataupun Linux.&lt;/p&gt;
+&lt;p&gt;Untuk mengeksekusi kode Python, Anda perlu menginstall Interpreter Python di sistem operasi yang
+anda gunakan. Interpreter berfungsi untuk mengubah kode python yang Anda tulis menjadi Kode mesin
+yang dimengerti oleh komputer.&lt;/p&gt;
+&lt;p&gt;Pada tutorial ini saya akan menjelaskan tahapan instalasi python pada sistem operasi Windows dan
+linux.&lt;/p&gt;
+&lt;h2 id=&#34;1-mengekstrak-binary-file&#34;&gt;1. Mengekstrak Binary File&lt;/h2&gt;
+&lt;p&gt;Cara yang pertama ini berlaku untuk Anda yang menggunakan Windows dan linux.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pengenalan Bahasa Pemrograman Python</title>
-      <link>https://lukheman.github.io/tutorial/python/pengenalan/</link>
+      <link>http://localhost:1313/tutorial/python/pengenalan/</link>
       <pubDate>Mon, 05 Aug 2024 17:54:41 +0800</pubDate>
-      <guid>https://lukheman.github.io/tutorial/python/pengenalan/</guid>
+      <guid>http://localhost:1313/tutorial/python/pengenalan/</guid>
       <description>&lt;p&gt;Python adalah salah satu bahasa Pemrograman tingkat tinggi (High Level) yang dibuat pada tahun akhir
 tahun 1980 oleh Guido Van Rossum. Bahasa Pemrograman Python menekankan keterbacaan kode dengan
 penggunakan &lt;em&gt;whitespace&lt;/em&gt; yang signifikan. Python juga mendukung berbagai paradigma pemrograman
