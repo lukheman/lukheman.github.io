@@ -4,11 +4,40 @@
     <title>Blogs on Lukhe</title>
     <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blogs on Lukhe</description>
-    <generator>Hugo -- 0.134.2</generator>
+    <generator>Hugo -- 0.134.3</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
-    <lastBuildDate>Sat, 10 Aug 2024 23:49:33 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Sep 2024 12:00:49 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Big Data</title>
+      <link>http://localhost:1313/blog/big-data/</link>
+      <pubDate>Sat, 28 Sep 2024 12:00:49 +0800</pubDate>
+      <guid>http://localhost:1313/blog/big-data/</guid>
+      <description>&lt;p&gt;Di era digital seperti sekarang, informasi merupakan atau data menjadi aset yang sangat penting
+dalam pengambilan keputusan. Kumpulan informsi tersebut dapat Kita temukan di internet dan biasa
+disebut dengan &lt;em&gt;&lt;strong&gt;Big Data&lt;/strong&gt;&lt;/em&gt;. Untuk lebih jelasnya silahkan simak artikel berikut sampai selesai.&lt;/p&gt;
+&lt;h2 id=&#34;pengertian-big-data&#34;&gt;Pengertian Big Data&lt;/h2&gt;
+&lt;p&gt;Big data adalah informasi yang sangat besar, tidak terstruktur, dan berkembang dengan cepat serta
+diperlukan teknologi inovatif untuk mendapatkan data yang berguna dalam pengambilan keputusan yang
+lebih baik.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flowchart</title>
+      <link>http://localhost:1313/blog/flowchart/</link>
+      <pubDate>Thu, 26 Sep 2024 18:57:46 +0800</pubDate>
+      <guid>http://localhost:1313/blog/flowchart/</guid>
+      <description>&lt;p&gt;Assalamualaikum wr..wb..
+Penulisan kode merupakan suatu proses yang bisa menjadi cukup rumit. Apalagi kalau kode yang kita buat
+sudah cukup kompleks. Tidak jarang juga terjadi kesalahan logika yang membuat output dari program tidak
+seperti yang kita inginkan. Untuk itulah diperlukan suatu gambaran alur logika dari program yang kita buat.
+Alur logika tersebut biasa dibuat dalam bentuk bagan yang disebut dengan &lt;em&gt;flowchart&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Flowchart atau bagan alir adalah suatu bagan yang menggambarkan arus logika dari
+program yang akan diproses dari awal hingga akhir. Flowchart berguna bagi programmer
+untuk mempersiapkan program yang rumit. Flowchart terdiri dari simbol-simbol yang
+menandakan proses dari setiap langkah program dan &lt;em&gt;flow lines&lt;/em&gt; menunjukan
+urutan dari langkah yang akan dikerjakan.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Tmux Sebagai Terminal Manager</title>
       <link>http://localhost:1313/blog/tmux-sebagai-terminal-manager/</link>

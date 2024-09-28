@@ -4,11 +4,18 @@
     <title>Python on Lukhe</title>
     <link>http://localhost:1313/tutorial/python/</link>
     <description>Recent content in Python on Lukhe</description>
-    <generator>Hugo -- 0.134.2</generator>
+    <generator>Hugo -- 0.134.3</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
-    <lastBuildDate>Thu, 19 Sep 2024 09:08:55 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 14:21:35 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tutorial/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tipe Data</title>
+      <link>http://localhost:1313/tutorial/python/tipe-data/</link>
+      <pubDate>Wed, 25 Sep 2024 14:21:35 +0800</pubDate>
+      <guid>http://localhost:1313/tutorial/python/tipe-data/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Pengenalan Variabel</title>
       <link>http://localhost:1313/tutorial/python/variabel/</link>

@@ -4,17 +4,73 @@
     <title>Lukhe</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Lukhe</description>
-    <generator>Hugo -- 0.134.2</generator>
+    <generator>Hugo -- 0.134.3</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
-    <lastBuildDate>Thu, 19 Sep 2024 09:08:55 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 28 Sep 2024 12:00:49 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Variabel</title>
+      <title>Big Data</title>
+      <link>http://localhost:1313/blog/big-data/</link>
+      <pubDate>Sat, 28 Sep 2024 12:00:49 +0800</pubDate>
+      <guid>http://localhost:1313/blog/big-data/</guid>
+      <description>&lt;p&gt;Di era digital seperti sekarang, informasi merupakan atau data menjadi aset yang sangat penting
+dalam pengambilan keputusan. Kumpulan informsi tersebut dapat Kita temukan di internet dan biasa
+disebut dengan &lt;em&gt;&lt;strong&gt;Big Data&lt;/strong&gt;&lt;/em&gt;. Untuk lebih jelasnya silahkan simak artikel berikut sampai selesai.&lt;/p&gt;
+&lt;h2 id=&#34;pengertian-big-data&#34;&gt;Pengertian Big Data&lt;/h2&gt;
+&lt;p&gt;Big data adalah informasi yang sangat besar, tidak terstruktur, dan berkembang dengan cepat serta
+diperlukan teknologi inovatif untuk mendapatkan data yang berguna dalam pengambilan keputusan yang
+lebih baik.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flowchart</title>
+      <link>http://localhost:1313/blog/flowchart/</link>
+      <pubDate>Thu, 26 Sep 2024 18:57:46 +0800</pubDate>
+      <guid>http://localhost:1313/blog/flowchart/</guid>
+      <description>&lt;p&gt;Assalamualaikum wr..wb..
+Penulisan kode merupakan suatu proses yang bisa menjadi cukup rumit. Apalagi kalau kode yang kita buat
+sudah cukup kompleks. Tidak jarang juga terjadi kesalahan logika yang membuat output dari program tidak
+seperti yang kita inginkan. Untuk itulah diperlukan suatu gambaran alur logika dari program yang kita buat.
+Alur logika tersebut biasa dibuat dalam bentuk bagan yang disebut dengan &lt;em&gt;flowchart&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Flowchart atau bagan alir adalah suatu bagan yang menggambarkan arus logika dari
+program yang akan diproses dari awal hingga akhir. Flowchart berguna bagi programmer
+untuk mempersiapkan program yang rumit. Flowchart terdiri dari simbol-simbol yang
+menandakan proses dari setiap langkah program dan &lt;em&gt;flow lines&lt;/em&gt; menunjukan
+urutan dari langkah yang akan dikerjakan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tipe Data</title>
+      <link>http://localhost:1313/tutorial/python/tipe-data/</link>
+      <pubDate>Wed, 25 Sep 2024 14:21:35 +0800</pubDate>
+      <guid>http://localhost:1313/tutorial/python/tipe-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pengenalan Variabel</title>
       <link>http://localhost:1313/tutorial/python/variabel/</link>
       <pubDate>Thu, 19 Sep 2024 09:08:55 +0800</pubDate>
       <guid>http://localhost:1313/tutorial/python/variabel/</guid>
-      <description>&lt;p&gt;Pada bagian ini kita akan belajar tentang variabel dalam bahasa pemrograman python.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Pada bagian ini kita akan belajar tentang variabel dalam bahasa pemrograman python.&lt;/p&gt;
+&lt;p&gt;Dalam bahasa pemrograman, variabel dikenal sebagai tempat untuk menyimpan data, baik data yang
+berbentuk text, angka, &lt;em&gt;list&lt;/em&gt;, &lt;em&gt;dictionary&lt;/em&gt;, ataupun &lt;em&gt;boolean&lt;/em&gt;. Lebih lanjut tentang data akan kita pelajari pada materi
+tentang tipe data.&lt;/p&gt;
+&lt;h2 id=&#34;membuat-variabel&#34;&gt;Membuat Variabel&lt;/h2&gt;
+&lt;p&gt;Di python variabel dapat dibuat dengan menuliskan nama variabel dan memberikan nilai dengan menggunakan tanda sama dengan (&lt;code&gt;=&lt;/code&gt;).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;nama&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;sofhia&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#7f848e&#34;&gt;# variabel nama menyimpan nilai string &amp;#39;sofhia&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;umur&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d19a66&#34;&gt;18&lt;/span&gt;       &lt;span style=&#34;color:#7f848e&#34;&gt;# variabel umur menyimpan nilai int 18&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;tinggi&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d19a66&#34;&gt;160.5&lt;/span&gt;  &lt;span style=&#34;color:#7f848e&#34;&gt;# variabel tinggi menyimpan nilai float 160.5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;aturan-penamaan-variabel&#34;&gt;Aturan penamaan variabel&lt;/h2&gt;
+&lt;p&gt;Penamaan variabel dalam bahasa pemrograman tidak dapat dilakukan denga asal-asalan. Ada aturan-aturan tertentu yang harus dipenuhi
+agar variabel menjadi valid.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Program Pertama</title>
