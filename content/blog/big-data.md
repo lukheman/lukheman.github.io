@@ -1,5 +1,5 @@
 +++
-title = 'Big Data'
+title = 'Big Data: Pengertian, Karakteristik, Manfaat'
 date = 2024-09-28T12:00:49+08:00
 draft = false
 +++
