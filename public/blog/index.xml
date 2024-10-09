@@ -2,18 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blogs on Lukhe</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://lukheman.github.io/blog/</link>
     <description>Recent content in Blogs on Lukhe</description>
-    <generator>Hugo -- 0.134.3</generator>
+    <generator>Hugo -- 0.135.0</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
-    <lastBuildDate>Sat, 28 Sep 2024 12:00:49 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Oct 2024 10:20:47 +0800</lastBuildDate>
+    <atom:link href="https://lukheman.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Big Data</title>
-      <link>http://localhost:1313/blog/big-data/</link>
+      <title>Perkembangan Teknologi Komputer</title>
+      <link>https://lukheman.github.io/blog/perkembangan-teknologi-komputer/</link>
+      <pubDate>Wed, 09 Oct 2024 10:20:47 +0800</pubDate>
+      <guid>https://lukheman.github.io/blog/perkembangan-teknologi-komputer/</guid>
+      <description>&lt;p&gt;Proses kehidupan manusia pasti tidak akan lepas dari yang namanya teknologi. Apalagi di era digital seperti sekarang.
+Seolah semua orang dituntut untuk mengerti dan paham cara mengoperasikan teknologi digital atau yang lebih akrab
+kita sebut dengan komputer.&lt;/p&gt;
+&lt;p&gt;Komputer adalah teknologi yang sudah sangat umum digunakan dalam berbagai bidang kehidupan. Mulai dari komunikasi, ekonomi,
+industri, kesehatan, ataupun pendidikan. Dengan adanya komputer, pekerjaan manusia dapat diselesaikan dengan lebih cepat dan
+efisien. Hal itu karena kemampuan komputasi yang sangat cepat. Namun komputer yang kita pakai sekarang tidak dengan komputer
+pada awal ia diciptakan. Komputer yang kita kenal sekarang sudah melalui proses pengembangan yang sangat panjang sehingga ia
+menjadi seperti sekarang.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Big Data: Pengertian, Karakteristik, Manfaat</title>
+      <link>https://lukheman.github.io/blog/big-data/</link>
       <pubDate>Sat, 28 Sep 2024 12:00:49 +0800</pubDate>
-      <guid>http://localhost:1313/blog/big-data/</guid>
+      <guid>https://lukheman.github.io/blog/big-data/</guid>
       <description>&lt;p&gt;Di era digital seperti sekarang, informasi merupakan atau data menjadi aset yang sangat penting
 dalam pengambilan keputusan. Kumpulan informsi tersebut dapat Kita temukan di internet dan biasa
 disebut dengan &lt;em&gt;&lt;strong&gt;Big Data&lt;/strong&gt;&lt;/em&gt;. Untuk lebih jelasnya silahkan simak artikel berikut sampai selesai.&lt;/p&gt;
@@ -23,26 +37,10 @@ diperlukan teknologi inovatif untuk mendapatkan data yang berguna dalam pengambi
 lebih baik.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Flowchart</title>
-      <link>http://localhost:1313/blog/flowchart/</link>
-      <pubDate>Thu, 26 Sep 2024 18:57:46 +0800</pubDate>
-      <guid>http://localhost:1313/blog/flowchart/</guid>
-      <description>&lt;p&gt;Assalamualaikum wr..wb..
-Penulisan kode merupakan suatu proses yang bisa menjadi cukup rumit. Apalagi kalau kode yang kita buat
-sudah cukup kompleks. Tidak jarang juga terjadi kesalahan logika yang membuat output dari program tidak
-seperti yang kita inginkan. Untuk itulah diperlukan suatu gambaran alur logika dari program yang kita buat.
-Alur logika tersebut biasa dibuat dalam bentuk bagan yang disebut dengan &lt;em&gt;flowchart&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Flowchart atau bagan alir adalah suatu bagan yang menggambarkan arus logika dari
-program yang akan diproses dari awal hingga akhir. Flowchart berguna bagi programmer
-untuk mempersiapkan program yang rumit. Flowchart terdiri dari simbol-simbol yang
-menandakan proses dari setiap langkah program dan &lt;em&gt;flow lines&lt;/em&gt; menunjukan
-urutan dari langkah yang akan dikerjakan.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Tmux Sebagai Terminal Manager</title>
-      <link>http://localhost:1313/blog/tmux-sebagai-terminal-manager/</link>
+      <link>https://lukheman.github.io/blog/tmux-sebagai-terminal-manager/</link>
       <pubDate>Sat, 10 Aug 2024 23:49:33 +0800</pubDate>
-      <guid>http://localhost:1313/blog/tmux-sebagai-terminal-manager/</guid>
+      <guid>https://lukheman.github.io/blog/tmux-sebagai-terminal-manager/</guid>
       <description>&lt;p&gt;Sebagai seorang Programmer, pastinya kita sudah tidak asing dengan terminal dan &lt;em&gt;Command Line
 Interface&lt;/em&gt;. Keduanya adalah dua hal yang saling terkait, sebab untuk mengakses CLI, Kita harus
 menggunakan terminal. Entah itu Alacritty, Kitty, st, dan lain sebagainya. Tak jarang pula kita

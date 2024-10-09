@@ -2,25 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python on Lukhe</title>
-    <link>http://localhost:1313/tutorial/python/</link>
+    <link>https://lukheman.github.io/tutorial/python/</link>
     <description>Recent content in Python on Lukhe</description>
-    <generator>Hugo -- 0.134.3</generator>
+    <generator>Hugo -- 0.135.0</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
-    <lastBuildDate>Wed, 25 Sep 2024 14:21:35 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tutorial/python/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tipe Data</title>
-      <link>http://localhost:1313/tutorial/python/tipe-data/</link>
-      <pubDate>Wed, 25 Sep 2024 14:21:35 +0800</pubDate>
-      <guid>http://localhost:1313/tutorial/python/tipe-data/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Thu, 19 Sep 2024 09:08:55 +0800</lastBuildDate>
+    <atom:link href="https://lukheman.github.io/tutorial/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pengenalan Variabel</title>
-      <link>http://localhost:1313/tutorial/python/variabel/</link>
+      <link>https://lukheman.github.io/tutorial/python/variabel/</link>
       <pubDate>Thu, 19 Sep 2024 09:08:55 +0800</pubDate>
-      <guid>http://localhost:1313/tutorial/python/variabel/</guid>
+      <guid>https://lukheman.github.io/tutorial/python/variabel/</guid>
       <description>&lt;p&gt;Pada bagian ini kita akan belajar tentang variabel dalam bahasa pemrograman python.&lt;/p&gt;
 &lt;p&gt;Dalam bahasa pemrograman, variabel dikenal sebagai tempat untuk menyimpan data, baik data yang
 berbentuk text, angka, &lt;em&gt;list&lt;/em&gt;, &lt;em&gt;dictionary&lt;/em&gt;, ataupun &lt;em&gt;boolean&lt;/em&gt;. Lebih lanjut tentang data akan kita pelajari pada materi
@@ -45,9 +38,9 @@ agar variabel menjadi valid.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Program Pertama</title>
-      <link>http://localhost:1313/tutorial/python/program-pertama/</link>
+      <link>https://lukheman.github.io/tutorial/python/program-pertama/</link>
       <pubDate>Thu, 05 Sep 2024 20:29:14 +0800</pubDate>
-      <guid>http://localhost:1313/tutorial/python/program-pertama/</guid>
+      <guid>https://lukheman.github.io/tutorial/python/program-pertama/</guid>
       <description>&lt;p&gt;Pada tutorial sebelumnya Anda telah belajar tentang bagaimana cara menginstall python di berbagai sistem operasi.
 Sekarang Anda akan belajar membuat program python sederhana.&lt;/p&gt;
 &lt;p&gt;Buat baru lalu isi dengan text di bawah&lt;/p&gt;
@@ -83,9 +76,9 @@ Sekarang Anda akan belajar membuat program python sederhana.&lt;/p&gt;
     </item>
     <item>
       <title>Instalasi Python</title>
-      <link>http://localhost:1313/tutorial/python/instalasi-python/</link>
+      <link>https://lukheman.github.io/tutorial/python/instalasi-python/</link>
       <pubDate>Wed, 07 Aug 2024 12:09:53 +0800</pubDate>
-      <guid>http://localhost:1313/tutorial/python/instalasi-python/</guid>
+      <guid>https://lukheman.github.io/tutorial/python/instalasi-python/</guid>
       <description>&lt;p&gt;Python termasuk ke dalam bahasa pemrograman tingkat tinggi yang mampu berjalan di atas berbagai
 sistem operasi, entah itu Windows ataupun Linux.&lt;/p&gt;
 &lt;p&gt;Untuk mengeksekusi kode Python, Anda perlu menginstall Interpreter Python di sistem operasi yang
@@ -98,9 +91,9 @@ linux.&lt;/p&gt;
     </item>
     <item>
       <title>Pengenalan Bahasa Pemrograman Python</title>
-      <link>http://localhost:1313/tutorial/python/pengenalan/</link>
+      <link>https://lukheman.github.io/tutorial/python/pengenalan/</link>
       <pubDate>Mon, 05 Aug 2024 17:54:41 +0800</pubDate>
-      <guid>http://localhost:1313/tutorial/python/pengenalan/</guid>
+      <guid>https://lukheman.github.io/tutorial/python/pengenalan/</guid>
       <description>&lt;p&gt;Python adalah salah satu bahasa Pemrograman tingkat tinggi (High Level) yang dibuat pada tahun akhir
 tahun 1980 oleh Guido Van Rossum. Bahasa Pemrograman Python menekankan keterbacaan kode dengan
 penggunakan &lt;em&gt;whitespace&lt;/em&gt; yang signifikan. Python juga mendukung berbagai paradigma pemrograman
