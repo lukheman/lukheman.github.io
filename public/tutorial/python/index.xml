@@ -7,8 +7,21 @@
     <generator>Hugo -- 0.135.0</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
-    <lastBuildDate>Thu, 19 Sep 2024 09:08:55 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 14:21:35 +0800</lastBuildDate>
     <atom:link href="https://lukheman.github.io/tutorial/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tipe Data</title>
+      <link>https://lukheman.github.io/tutorial/python/tipe-data/</link>
+      <pubDate>Wed, 25 Sep 2024 14:21:35 +0800</pubDate>
+      <guid>https://lukheman.github.io/tutorial/python/tipe-data/</guid>
+      <description>&lt;p&gt;Dalam dunia pemrograman, tipe data adalah adalah konsep yang sangat penting untuk dipahami. Variabel dapat
+menyimpan berbagai tipe data yang berbeda, dan setiap tipe data dapat melakukan hal yang berbeda pula.&lt;/p&gt;
+&lt;p&gt;Dalam bahasa pemrograman python, setidaknya ada x jenis tipe data yang paling sering digunakan, yaitu &lt;em&gt;str&lt;/em&gt;,
+&lt;em&gt;int&lt;/em&gt;, &lt;em&gt;float&lt;/em&gt;, &lt;em&gt;list&lt;/em&gt;, &lt;em&gt;tuple&lt;/em&gt;, &lt;em&gt;dict&lt;/em&gt;, &lt;em&gt;set&lt;/em&gt;, dan &lt;em&gt;bool&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;string&#34;&gt;String&lt;/h2&gt;
+&lt;p&gt;String atau &lt;em&gt;str&lt;/em&gt; adalah tipe data yang kita gunakan untuk menyimpan data dalam bentuk text. String dalam python
+dibuat menggunakan tanda petik satu &lt;code&gt;&#39;&#39;&lt;/code&gt; atau petik dua &lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt;. Anda dapat menampilkan string dengan menggunakan &lt;code&gt;print()&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Pengenalan Variabel</title>
       <link>https://lukheman.github.io/tutorial/python/variabel/</link>
