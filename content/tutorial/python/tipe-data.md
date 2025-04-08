@@ -7,8 +7,8 @@ draft = false
 Dalam dunia pemrograman, tipe data adalah adalah konsep yang sangat penting untuk dipahami. Variabel dapat
 menyimpan berbagai tipe data yang berbeda, dan setiap tipe data dapat melakukan hal yang berbeda pula.
 
-Dalam bahasa pemrograman python, setidaknya ada x jenis tipe data yang paling sering digunakan, yaitu *str*,
-*int*, *float*, *list*, *tuple*, *dict*, *set*, dan *bool*.
+Dalam bahasa pemrograman python, setidaknya ada 6 jenis tipe data yang paling sering digunakan, yaitu *string*,
+*integer*, *float*, *boolean*, *list*, *tuple*, dan *dictionary*.
 
 ## String
 

@@ -2,9 +2,11 @@ baseURL = "https://lukheman.github.io/"
 title = "Lukhe"
 author = "Akmal"
 copyright = "Akmal"
-paginate = 10
 languageCode = "id"
 theme = "PaperMod"
+
+[pagination]
+pagerSize = 10
 
 [markup]
   _merge = "deep"
@@ -39,6 +41,12 @@ theme = "PaperMod"
     identifier = "tutorial"
     name = "Tutorial"
     pageRef = "/tutorial"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "kuliah"
+    name = "Kuliah"
+    pageRef = "/kuliah"
     weight = 20
 
   [[menu.main]]
@@ -92,6 +100,10 @@ subtitle = "*Just a normal people who are instrested in Programming and Computer
   [[params.profileMode.buttons]]
   name = "Archive"
   url = "/archive"
+
+  [[params.profileMode.buttons]]
+  name = "Kuliah"
+  url = "/kuliah"
 
 [[params.socialIcons]]
 name = "Instagram"

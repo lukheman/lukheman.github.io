@@ -10,7 +10,7 @@
 <meta name="description" content="Python - Lukhe">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/tutorial/python/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -76,7 +76,7 @@
         <div class="logo">
             <a href="http://localhost:1313/" accesskey="h" title="Lukhe (Alt + H)">Lukhe</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -100,12 +100,12 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/blog/" title="Blog">
+                <a href="http://localhost:1313/blog/" title="Blogs">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/" title="Home">
+                <a href="http://localhost:1313/" title="Lukhe">
                     <span>Home</span>
                 </a>
             </li>
@@ -115,12 +115,17 @@
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/archive/" title="Archives">
+                <a href="http://localhost:1313/archive/" title="Archive">
                     <span>Archives</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tutorial/" title="Tutorial">
+                <a href="http://localhost:1313/kuliah/" title="Kuliahs">
+                    <span>Kuliah</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tutorial/" title="Tutorials">
                     <span>Tutorial</span>
                 </a>
             </li>
@@ -136,12 +141,33 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Operator
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Operator dalam bahasa pemrograman adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai atau variabel. Python memiliki sangat banyak operator yang dapat digunakan. Operator-operator tersebut dapat kita kualifikasikan berdasarkan fungsinya.
+Operator Aritmatika (Arithmetic operators) Operator aritmatika digunakan untuk melakukan operasi aritmatika seperti penjumlahan, pengurangan, pembagian, perkalian, dll.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 a = 5 b = 2 # penjumlahan c = a &#43; b print(f&#39;{a} &#43; {b} = {c}&#39;) # pengurangan c = a - b print(f&#39;{a} - {b} = {c}&#39;) # perkalian c = a * b print(f&#39;{a} * {b} = {c}&#39;) # pembagian c = a / b print(f&#39;{a} / {b} = {c}&#39;) # pembagian yang hasilnya dibulatkan c = a // b print(f&#39;{a} // {b} = {c}&#39;) # sisa bagi c = a % b print(f&#39;{a} % {b} = {c}&#39;) # pangkat c = a ** b print(f&#39;{a} ** {b} = {c}&#39;) # output # 5 &#43; 2 = 7 # 5 - 2 = 3 # 5 * 2 = 10 # 5 / 2 = 2.5 # 5 // 2 = 2 # 5 % 2 = 1 # 5 ** 2 = 25 Pada contoh di atas kita melakukan operasi aritmatika pada angka 5 dan 2 yang disimpan di variabel a dan b dan hasilnya disimpan pada variabel c.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-10-10 10:00:06 +0800 WITA'>October 10, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to Operator" href="http://localhost:1313/tutorial/python/operator/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Tipe Data
     </h2>
   </header>
   <div class="entry-content">
     <p>Dalam dunia pemrograman, tipe data adalah adalah konsep yang sangat penting untuk dipahami. Variabel dapat menyimpan berbagai tipe data yang berbeda, dan setiap tipe data dapat melakukan hal yang berbeda pula.
-Dalam bahasa pemrograman python, setidaknya ada x jenis tipe data yang paling sering digunakan, yaitu str, int, float, list, tuple, dict, set, dan bool.
+Dalam bahasa pemrograman python, setidaknya ada 6 jenis tipe data yang paling sering digunakan, yaitu string, integer, float, boolean, list, tuple, dan dictionary.
 String String atau str adalah tipe data yang kita gunakan untuk menyimpan data dalam bentuk text. String dalam python dibuat menggunakan tanda petik satu &#39;&#39; atau petik dua &#34;&#34;. Anda dapat menampilkan string dengan menggunakan print().
 ...</p>
   </div>

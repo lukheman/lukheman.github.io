@@ -4,11 +4,108 @@
     <title>Python on Lukhe</title>
     <link>http://localhost:1313/tutorial/python/</link>
     <description>Recent content in Python on Lukhe</description>
-    <generator>Hugo -- 0.135.0</generator>
+    <generator>Hugo -- 0.145.0</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
-    <lastBuildDate>Wed, 25 Sep 2024 14:21:35 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2024 10:00:06 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tutorial/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Operator</title>
+      <link>http://localhost:1313/tutorial/python/operator/</link>
+      <pubDate>Thu, 10 Oct 2024 10:00:06 +0800</pubDate>
+      <guid>http://localhost:1313/tutorial/python/operator/</guid>
+      <description>&lt;p&gt;Operator dalam bahasa pemrograman adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai atau variabel.
+Python memiliki sangat banyak operator yang dapat digunakan. Operator-operator tersebut dapat kita kualifikasikan berdasarkan
+fungsinya.&lt;/p&gt;
+&lt;h2 id=&#34;operator-aritmatika-arithmetic-operators&#34;&gt;Operator Aritmatika (&lt;em&gt;Arithmetic operators&lt;/em&gt;)&lt;/h2&gt;
+&lt;p&gt;Operator aritmatika digunakan untuk melakukan operasi aritmatika seperti penjumlahan, pengurangan, pembagian, perkalian, dll.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;12
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;13
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;14
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;15
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;16
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;17
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;18
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;19
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;20
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;21
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;22
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;23
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;24
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;25
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;26
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;27
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;28
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;29
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;30
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;31
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;32
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;33
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;34
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;35
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;36
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;37
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;38
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;39
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d19a66&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d19a66&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# penjumlahan&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e5c07b&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#98c379&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; + &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; = &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# pengurangan&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e5c07b&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#98c379&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; - &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; = &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# perkalian&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e5c07b&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#98c379&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; * &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; = &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# pembagian&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e5c07b&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#98c379&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; / &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; = &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# pembagian yang hasilnya dibulatkan&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;//&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e5c07b&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#98c379&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; // &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; = &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# sisa bagi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;%&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e5c07b&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#98c379&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; % &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; = &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# pangkat&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;**&lt;/span&gt; &lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e5c07b&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#98c379&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; ** &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt; = &lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;c&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# output&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# 5 + 2  = 7&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# 5 - 2  = 3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# 5 * 2  = 10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# 5 / 2  = 2.5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# 5 // 2 = 2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# 5 % 2  = 1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# 5 ** 2 = 25&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Pada contoh di atas kita melakukan operasi aritmatika pada angka 5 dan 2 yang disimpan di variabel &lt;code&gt;a&lt;/code&gt; dan &lt;code&gt;b&lt;/code&gt; dan hasilnya
+disimpan pada variabel &lt;code&gt;c&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Tipe Data</title>
       <link>http://localhost:1313/tutorial/python/tipe-data/</link>
@@ -16,8 +113,8 @@
       <guid>http://localhost:1313/tutorial/python/tipe-data/</guid>
       <description>&lt;p&gt;Dalam dunia pemrograman, tipe data adalah adalah konsep yang sangat penting untuk dipahami. Variabel dapat
 menyimpan berbagai tipe data yang berbeda, dan setiap tipe data dapat melakukan hal yang berbeda pula.&lt;/p&gt;
-&lt;p&gt;Dalam bahasa pemrograman python, setidaknya ada x jenis tipe data yang paling sering digunakan, yaitu &lt;em&gt;str&lt;/em&gt;,
-&lt;em&gt;int&lt;/em&gt;, &lt;em&gt;float&lt;/em&gt;, &lt;em&gt;list&lt;/em&gt;, &lt;em&gt;tuple&lt;/em&gt;, &lt;em&gt;dict&lt;/em&gt;, &lt;em&gt;set&lt;/em&gt;, dan &lt;em&gt;bool&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Dalam bahasa pemrograman python, setidaknya ada 6 jenis tipe data yang paling sering digunakan, yaitu &lt;em&gt;string&lt;/em&gt;,
+&lt;em&gt;integer&lt;/em&gt;, &lt;em&gt;float&lt;/em&gt;, &lt;em&gt;boolean&lt;/em&gt;, &lt;em&gt;list&lt;/em&gt;, &lt;em&gt;tuple&lt;/em&gt;, dan &lt;em&gt;dictionary&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;string&#34;&gt;String&lt;/h2&gt;
 &lt;p&gt;String atau &lt;em&gt;str&lt;/em&gt; adalah tipe data yang kita gunakan untuk menyimpan data dalam bentuk text. String dalam python
 dibuat menggunakan tanda petik satu &lt;code&gt;&#39;&#39;&lt;/code&gt; atau petik dua &lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt;. Anda dapat menampilkan string dengan menggunakan &lt;code&gt;print()&lt;/code&gt;.&lt;/p&gt;</description>
