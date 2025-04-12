@@ -7,17 +7,8 @@
     <generator>Hugo -- 0.126.2</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
-    <lastBuildDate>Thu, 10 Oct 2024 10:00:06 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 14:21:35 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tutorial/python/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Operator</title>
-      <link>http://localhost:1313/tutorial/python/operator/</link>
-      <pubDate>Thu, 10 Oct 2024 10:00:06 +0800</pubDate>
-      <guid>http://localhost:1313/tutorial/python/operator/</guid>
-      <description>Operator dalam bahasa pemrograman adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai atau variabel. Python memiliki sangat banyak operator yang dapat digunakan. Operator-operator tersebut dapat kita kualifikasikan berdasarkan fungsinya.
-Operator Aritmatika (Arithmetic operators) Operator aritmatika digunakan untuk melakukan operasi aritmatika seperti penjumlahan, pengurangan, pembagian, perkalian, dll.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 a = 5 b = 2 # penjumlahan c = a + b print(f&amp;#39;{a} + {b} = {c}&amp;#39;) # pengurangan c = a - b print(f&amp;#39;{a} - {b} = {c}&amp;#39;) # perkalian c = a * b print(f&amp;#39;{a} * {b} = {c}&amp;#39;) # pembagian c = a / b print(f&amp;#39;{a} / {b} = {c}&amp;#39;) # pembagian yang hasilnya dibulatkan c = a // b print(f&amp;#39;{a} // {b} = {c}&amp;#39;) # sisa bagi c = a % b print(f&amp;#39;{a} % {b} = {c}&amp;#39;) # pangkat c = a ** b print(f&amp;#39;{a} ** {b} = {c}&amp;#39;) # output # 5 + 2 = 7 # 5 - 2 = 3 # 5 * 2 = 10 # 5 / 2 = 2.</description>
-    </item>
     <item>
       <title>Tipe Data</title>
       <link>http://localhost:1313/tutorial/python/tipe-data/</link>
