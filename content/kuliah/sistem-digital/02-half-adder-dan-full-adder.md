@@ -1,7 +1,7 @@
 +++
 title = 'Half Adder Dan Full Adder'
 date = 2025-04-21T18:47:26+08:00
-draft = true
+draft = false
 +++
 
 # Half Adder
