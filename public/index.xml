@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lukhe</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Lukhe</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
-    <lastBuildDate>Mon, 21 Apr 2025 19:46:38 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jul 2025 06:15:58 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pointer</title>
+      <link>http://localhost:1313/kuliah/dsa/pointer/</link>
+      <pubDate>Thu, 03 Jul 2025 06:15:58 +0800</pubDate>
+      <guid>http://localhost:1313/kuliah/dsa/pointer/</guid>
+      <description>&lt;p&gt;Dalam dunia programming kita mengenal yang namanya pointer. Pointer adalah variabel yang menyimpan alamat memori dari variable lain sebagai nilainya. Pointer memiliki dua jenis operator. Yaitu deference operator dan reference operator.&lt;/p&gt;&#xA;&lt;p&gt;Contoh Program 1:&lt;/p&gt;&#xA;&lt;p&gt;Deference operator digunakan untuk mendapatkan alamat memori dari suatu variabel. Deference operator dibuat dengan menambahkan simbol (&amp;amp;) di depan nama variabel. Silahkan lihat contoh program di bawah.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/dsa/pointer-contoh-program-1.png&#34; alt=&#34;Program 1&#34;&gt;&#xA;Output Program 1:&#xA;&lt;img src=&#34;http://localhost:1313/img/dsa/pointer-output-program-1.png&#34; alt=&#34;Ouput Program 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Pada baris ke-10, terdapat tanda reference operator (&amp;amp;) didepan variabel angka dan outputnya akan menjadi alamat memori (bilangan hexadesimal). Berbeda halnya ketika mencetak variabel angka pada baris ke-11, maka yang akan ditampilkan adalah isi dari variabel angka itu sendir yaitu 20.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Encoder Dan Decoder</title>
       <link>http://localhost:1313/kuliah/sistem-digital/03-encoder-dan-decoder/</link>
       <pubDate>Mon, 21 Apr 2025 19:46:38 +0800</pubDate>
       <guid>http://localhost:1313/kuliah/sistem-digital/03-encoder-dan-decoder/</guid>
-      <description>Encoder Encoder adalah rangkaian digital yang berfungsi untuk mengompresi bit. Jadi informasi dalam bentuk bit akan diproses oleh rangkaian ini dan akan diubah ke ukuran yang lebih kecil. Hanya ukuran data yang berubah tetapi informasi di dalamnya tetap sama. Encoder banyak digunakan dalam sistem komunikasi dan pengolahan data.
-Table kebenaran encoder 4 to 2 Input A(3) A(2) A(1) A(0) Output B(1) Output B(0) 0001 0 0 0 1 0 0 0010 0 0 1 0 0 1 0100 0 1 0 0 1 0 1000 1 0 0 0 1 1 Decoder Jika encoder digunakan untuk memperkecil ukuran data, maka decoder melakukan hal yang sebalinya.</description>
+      <description>&lt;h1 id=&#34;encoder&#34;&gt;Encoder&lt;/h1&gt;&#xA;&lt;p&gt;Encoder adalah rangkaian digital yang berfungsi untuk mengompresi bit. Jadi informasi dalam bentuk bit akan diproses oleh rangkaian ini&#xA;dan akan diubah ke ukuran yang lebih kecil. Hanya ukuran data yang berubah tetapi informasi di dalamnya tetap sama. Encoder banyak digunakan dalam sistem komunikasi dan pengolahan data.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/encoder.png&#34; alt=&#34;Encoder&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;table-kebenaran-encoder-4-to-2&#34;&gt;Table kebenaran encoder 4 to 2&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Input&lt;/th&gt;&#xA;          &lt;th&gt;A(3)&lt;/th&gt;&#xA;          &lt;th&gt;A(2)&lt;/th&gt;&#xA;          &lt;th&gt;A(1)&lt;/th&gt;&#xA;          &lt;th&gt;A(0)&lt;/th&gt;&#xA;          &lt;th&gt;Output B(1)&lt;/th&gt;&#xA;          &lt;th&gt;Output B(0)&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0001&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0010&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0100&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1000&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h1 id=&#34;decoder&#34;&gt;Decoder&lt;/h1&gt;&#xA;&lt;p&gt;Jika encoder digunakan untuk memperkecil ukuran data, maka decoder melakukan hal yang sebalinya.&#xA;Decoder akan memperluas atau mengembalikan data ke ukuran asalnya.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Multiplexer Dan Demultiplexer</title>
       <link>http://localhost:1313/kuliah/sistem-digital/03-multiplexer-dan-demultiplexer/</link>
       <pubDate>Mon, 21 Apr 2025 19:21:43 +0800</pubDate>
       <guid>http://localhost:1313/kuliah/sistem-digital/03-multiplexer-dan-demultiplexer/</guid>
-      <description>Multiplexer Multiplexer adalah rangkaian digital yang memproses banyak input dan meneruskannya ke output. Rangkaian ini digunakan untuk memilih data yang akan diproses.
-Table Kebenaran Mux 2 to 1 Selector Output 0 A 1 B Table Kebenaran Mux 4 to 1 S1 S0 Output 0 0 A 0 1 B 1 0 C 1 1 D Di bawah ini adalah gambar multiplexer 2x1 dan 4x1.
-Multiplexer biasa digunakan pada perangkat memori, antarmuka I/O, dan memproses sinyal digital.</description>
+      <description>&lt;h1 id=&#34;multiplexer&#34;&gt;Multiplexer&lt;/h1&gt;&#xA;&lt;p&gt;Multiplexer adalah rangkaian digital yang memproses banyak input dan meneruskannya ke output.&#xA;Rangkaian ini digunakan untuk memilih data yang akan diproses.&lt;/p&gt;&#xA;&lt;h2 id=&#34;table-kebenaran-mux-2-to-1&#34;&gt;Table Kebenaran Mux 2 to 1&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Selector&lt;/th&gt;&#xA;          &lt;th&gt;Output&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;A&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;B&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;table-kebenaran-mux-4-to-1&#34;&gt;Table Kebenaran Mux 4 to 1&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;S1&lt;/th&gt;&#xA;          &lt;th&gt;S0&lt;/th&gt;&#xA;          &lt;th&gt;Output&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;A&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;B&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;C&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;D&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Di bawah ini adalah gambar multiplexer 2x1 dan 4x1.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/multiplexer.png&#34; alt=&#34;Multiplexer&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Multiplexer biasa digunakan pada perangkat memori, antarmuka I/O, dan memproses sinyal digital.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Half Adder Dan Full Adder</title>
       <link>http://localhost:1313/kuliah/sistem-digital/02-half-adder-dan-full-adder/</link>
       <pubDate>Mon, 21 Apr 2025 18:47:26 +0800</pubDate>
       <guid>http://localhost:1313/kuliah/sistem-digital/02-half-adder-dan-full-adder/</guid>
-      <description>Half Adder Half adder adalah rangkaian logika yang berfungsi untuk menjumlahkan 2 bit bilangan biner tanpa memproses carry dari hasil operasi sebelumnya. Half adder menghsilkan 2 output. Output pertama disebut sebagai sum dan output kedua disebut sebagai carry. Full Adder Full adder adalah rangkaian logika yang dapat menjumlahkan 3 bit dengan mempertimbangkan carry dari hasil penjumlahan sebelumnya. Rangkaian ini juga menghasilkan 2 output yaitu sum dan carry.</description>
+      <description>&lt;h1 id=&#34;half-adder&#34;&gt;Half Adder&lt;/h1&gt;&#xA;&lt;p&gt;Half adder adalah rangkaian logika yang berfungsi untuk menjumlahkan 2 bit bilangan biner tanpa memproses &lt;code&gt;carry&lt;/code&gt; dari hasil&#xA;operasi sebelumnya. Half adder menghsilkan 2 output. Output pertama disebut sebagai &lt;code&gt;sum&lt;/code&gt; dan output kedua disebut sebagai &lt;code&gt;carry&lt;/code&gt;.&#xA;&lt;img src=&#34;http://localhost:1313/img/halfadder.png&#34; alt=&#34;Half Adder&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;full-adder&#34;&gt;Full Adder&lt;/h1&gt;&#xA;&lt;p&gt;Full adder adalah rangkaian logika yang dapat menjumlahkan 3 bit dengan mempertimbangkan &lt;code&gt;carry&lt;/code&gt; dari hasil penjumlahan sebelumnya.&#xA;Rangkaian ini juga menghasilkan 2 output yaitu &lt;code&gt;sum&lt;/code&gt; dan &lt;code&gt;carry&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/fulladder.png&#34; alt=&#34;Full Adder&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sistem Bilangan Digital</title>
@@ -45,136 +49,91 @@ Multiplexer biasa digunakan pada perangkat memori, antarmuka I/O, dan memproses 
       <link>http://localhost:1313/kuliah/bahasa-inggris/superlatif/</link>
       <pubDate>Sun, 20 Apr 2025 22:20:53 +0800</pubDate>
       <guid>http://localhost:1313/kuliah/bahasa-inggris/superlatif/</guid>
-      <description>Digunakan untuk membandingkan satu hal dengan banyak hal bentuk kata Kata benda (subjek) + kata kerja + the + kata sifat superlatif + kata benda (objek).
-Contoh
-My house is the largest one in our neighborhood. This is the smallest box I&amp;rsquo;ve ever seen. Your dog ran the fastest of any dog in the race. We all threw our rocks at the same time. My rock flew the highest. (&amp;ldquo;of all the rocks&amp;rdquo; - kita sudah mengetahuinya) Membentuk kata sifat superlatif beraturan Bentuk kata sifat superlatif beraturan bergantung pada jumlah suku kata dalam kata sifat aslinya.</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Digunakan untuk membandingkan satu hal dengan banyak hal&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;bentuk-kata&#34;&gt;bentuk kata&lt;/h2&gt;&#xA;&lt;p&gt;Kata benda (subjek) + kata kerja + the + kata sifat superlatif + kata benda (objek).&lt;/p&gt;&#xA;&lt;p&gt;Contoh&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;My house is the largest one in our neighborhood.&lt;/li&gt;&#xA;&lt;li&gt;This is the smallest box I&amp;rsquo;ve ever seen.&lt;/li&gt;&#xA;&lt;li&gt;Your dog ran the fastest of any dog in the race.&lt;/li&gt;&#xA;&lt;li&gt;We all threw our rocks at the same time. My rock flew the highest. (&amp;ldquo;of all the rocks&amp;rdquo; - kita sudah mengetahuinya)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;membentuk-kata-sifat-superlatif-beraturan&#34;&gt;Membentuk kata sifat superlatif beraturan&lt;/h2&gt;&#xA;&lt;p&gt;Bentuk kata sifat superlatif beraturan bergantung pada jumlah suku kata dalam kata sifat aslinya.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Present Simple</title>
       <link>http://localhost:1313/kuliah/bahasa-inggris/present-simple/</link>
       <pubDate>Sun, 20 Apr 2025 22:20:06 +0800</pubDate>
       <guid>http://localhost:1313/kuliah/bahasa-inggris/present-simple/</guid>
-      <description>Present Simple adalah bentuk tense dalam bahasa Inggris yang digunakan untuk menyatakan kebiasaan, fakta umum, rutinitas, atau keadaan yang berlaku secara konsisten atau tetap di masa sekarang. Kata kerja &amp;ldquo;to be&amp;rdquo; (am, is, are) sering digunakan dalam kalimat nominal pada present simple.
-Fungsi Present Simple Kebiasaan/Rutinitas: Contoh: I go to school every day. (Saya pergi ke sekolah setiap hari.) Fakta Umum: Contoh: The sun rises in the east. (Matahari terbit di timur.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Present Simple&lt;/strong&gt; adalah bentuk tense dalam bahasa Inggris yang digunakan untuk menyatakan kebiasaan, fakta umum, rutinitas, atau keadaan yang berlaku secara konsisten atau tetap di masa sekarang. Kata kerja &amp;ldquo;to be&amp;rdquo; (am, is, are) sering digunakan dalam kalimat nominal pada present simple.&lt;/p&gt;&#xA;&lt;h3 id=&#34;fungsi-present-simple&#34;&gt;&lt;strong&gt;Fungsi Present Simple&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Kebiasaan/Rutinitas&lt;/strong&gt;:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Contoh: I go to school every day. (Saya pergi ke sekolah setiap hari.)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fakta Umum&lt;/strong&gt;:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Contoh: The sun rises in the east. (Matahari terbit di timur.)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keadaan Tetap&lt;/strong&gt;:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Contoh: She is a doctor. (Dia dokter.)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Jadwal atau Fakta Tetap&lt;/strong&gt;:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Contoh: The train leaves at 7 p.m. (Kereta berangkat jam 7 malam.)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Perasaan, Pendapat, atau Keadaan&lt;/strong&gt;:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Contoh: I like coffee. (Saya suka kopi.)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;struktur-kalimat-dengan-to-be&#34;&gt;&lt;strong&gt;Struktur Kalimat dengan To Be&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Dalam kalimat nominal (tanpa kata kerja utama), &amp;ldquo;to be&amp;rdquo; (am, is, are) digunakan:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Preset to Be</title>
       <link>http://localhost:1313/kuliah/bahasa-inggris/preset-to-be/</link>
       <pubDate>Sun, 20 Apr 2025 22:18:26 +0800</pubDate>
       <guid>http://localhost:1313/kuliah/bahasa-inggris/preset-to-be/</guid>
-      <description>Present To Be dalam bahasa Inggris merujuk pada penggunaan kata kerja &amp;ldquo;to be&amp;rdquo; (am, is, are) dalam bentuk present tense untuk menunjukkan keadaan, identitas, lokasi, atau sifat sesuatu pada waktu sekarang. Berikut penjelasannya:
-1. Bentuk To Be Am: Digunakan untuk subjek I (saya). Is: Digunakan untuk subjek he, she, it (dia laki-laki, dia perempuan, benda/orang tunggal). Are: Digunakan untuk subjek you, we, they (kamu, kami, mereka). 2. Fungsi Present To Be &amp;ldquo;To be&amp;rdquo; digunakan dalam beberapa konteks, seperti:</description>
-    </item>
-    <item>
-      <title>Pertemuan Satu</title>
-      <link>http://localhost:1313/kuliah/sistem-digital/pertemuan-satu/</link>
-      <pubDate>Sat, 05 Apr 2025 10:07:12 +0800</pubDate>
-      <guid>http://localhost:1313/kuliah/sistem-digital/pertemuan-satu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Operator</title>
-      <link>http://localhost:1313/tutorial/python/operator/</link>
-      <pubDate>Thu, 10 Oct 2024 10:00:06 +0800</pubDate>
-      <guid>http://localhost:1313/tutorial/python/operator/</guid>
-      <description>Operator dalam bahasa pemrograman adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai atau variabel. Python memiliki sangat banyak operator yang dapat digunakan. Operator-operator tersebut dapat kita kualifikasikan berdasarkan fungsinya.
-Operator Aritmatika (Arithmetic operators) Operator aritmatika digunakan untuk melakukan operasi aritmatika seperti penjumlahan, pengurangan, pembagian, perkalian, dll.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 a = 5 b = 2 # penjumlahan c = a + b print(f&amp;#39;{a} + {b} = {c}&amp;#39;) # pengurangan c = a - b print(f&amp;#39;{a} - {b} = {c}&amp;#39;) # perkalian c = a * b print(f&amp;#39;{a} * {b} = {c}&amp;#39;) # pembagian c = a / b print(f&amp;#39;{a} / {b} = {c}&amp;#39;) # pembagian yang hasilnya dibulatkan c = a // b print(f&amp;#39;{a} // {b} = {c}&amp;#39;) # sisa bagi c = a % b print(f&amp;#39;{a} % {b} = {c}&amp;#39;) # pangkat c = a ** b print(f&amp;#39;{a} ** {b} = {c}&amp;#39;) # output # 5 + 2 = 7 # 5 - 2 = 3 # 5 * 2 = 10 # 5 / 2 = 2.</description>
+      <description>&lt;p&gt;Present To Be dalam bahasa Inggris merujuk pada penggunaan kata kerja &amp;ldquo;to be&amp;rdquo; (am, is, are) dalam bentuk present tense untuk menunjukkan keadaan, identitas, lokasi, atau sifat sesuatu pada waktu sekarang. Berikut penjelasannya:&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-bentuk-to-be&#34;&gt;1. &lt;strong&gt;Bentuk To Be&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Am&lt;/strong&gt;: Digunakan untuk subjek &lt;strong&gt;I&lt;/strong&gt; (saya).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Is&lt;/strong&gt;: Digunakan untuk subjek &lt;strong&gt;he, she, it&lt;/strong&gt; (dia laki-laki, dia perempuan, benda/orang tunggal).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Are&lt;/strong&gt;: Digunakan untuk subjek &lt;strong&gt;you, we, they&lt;/strong&gt; (kamu, kami, mereka).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-fungsi-present-to-be&#34;&gt;2. &lt;strong&gt;Fungsi Present To Be&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&amp;ldquo;To be&amp;rdquo; digunakan dalam beberapa konteks, seperti:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Perkembangan Teknologi Komputer</title>
       <link>http://localhost:1313/blog/perkembangan-teknologi-komputer/</link>
       <pubDate>Wed, 09 Oct 2024 10:20:47 +0800</pubDate>
       <guid>http://localhost:1313/blog/perkembangan-teknologi-komputer/</guid>
-      <description>Proses kehidupan manusia pasti tidak akan lepas dari yang namanya teknologi. Apalagi di era digital seperti sekarang. Seolah semua orang dituntut untuk mengerti dan paham cara mengoperasikan teknologi digital atau yang lebih akrab kita sebut dengan komputer.
-Komputer adalah teknologi yang sudah sangat umum digunakan dalam berbagai bidang kehidupan. Mulai dari komunikasi, ekonomi, industri, kesehatan, ataupun pendidikan. Dengan adanya komputer, pekerjaan manusia dapat diselesaikan dengan lebih cepat dan efisien. Hal itu karena kemampuan komputasi yang sangat cepat.</description>
+      <description>&lt;p&gt;Proses kehidupan manusia pasti tidak akan lepas dari yang namanya teknologi. Apalagi di era digital seperti sekarang.&#xA;Seolah semua orang dituntut untuk mengerti dan paham cara mengoperasikan teknologi digital atau yang lebih akrab&#xA;kita sebut dengan komputer.&lt;/p&gt;&#xA;&lt;p&gt;Komputer adalah teknologi yang sudah sangat umum digunakan dalam berbagai bidang kehidupan. Mulai dari komunikasi, ekonomi,&#xA;industri, kesehatan, ataupun pendidikan. Dengan adanya komputer, pekerjaan manusia dapat diselesaikan dengan lebih cepat dan&#xA;efisien. Hal itu karena kemampuan komputasi yang sangat cepat. Namun komputer yang kita pakai sekarang tidak dengan komputer&#xA;pada awal ia diciptakan. Komputer yang kita kenal sekarang sudah melalui proses pengembangan yang sangat panjang sehingga ia&#xA;menjadi seperti sekarang.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Big Data: Pengertian, Karakteristik, Manfaat</title>
       <link>http://localhost:1313/blog/big-data/</link>
       <pubDate>Sat, 28 Sep 2024 12:00:49 +0800</pubDate>
       <guid>http://localhost:1313/blog/big-data/</guid>
-      <description>Di era digital seperti sekarang, informasi merupakan atau data menjadi aset yang sangat penting dalam pengambilan keputusan. Kumpulan informsi tersebut dapat Kita temukan di internet dan biasa disebut dengan Big Data. Untuk lebih jelasnya silahkan simak artikel berikut sampai selesai.
-Pengertian Big Data Big data adalah informasi yang sangat besar, tidak terstruktur, dan berkembang dengan cepat serta diperlukan teknologi inovatif untuk mendapatkan data yang berguna dalam pengambilan keputusan yang lebih baik.</description>
-    </item>
-    <item>
-      <title>Flowchart</title>
-      <link>http://localhost:1313/blog/flowchart/</link>
-      <pubDate>Thu, 26 Sep 2024 18:57:46 +0800</pubDate>
-      <guid>http://localhost:1313/blog/flowchart/</guid>
-      <description>Assalamualaikum wr..wb.. Penulisan kode merupakan suatu proses yang bisa menjadi cukup rumit. Apalagi kalau kode yang kita buat sudah cukup kompleks. Tidak jarang juga terjadi kesalahan logika yang membuat output dari program tidak seperti yang kita inginkan. Untuk itulah diperlukan suatu gambaran alur logika dari program yang kita buat. Alur logika tersebut biasa dibuat dalam bentuk bagan yang disebut dengan flowchart.
-Flowchart atau bagan alir adalah suatu bagan yang menggambarkan arus logika dari program yang akan diproses dari awal hingga akhir.</description>
+      <description>&lt;p&gt;Di era digital seperti sekarang, informasi merupakan atau data menjadi aset yang sangat penting&#xA;dalam pengambilan keputusan. Kumpulan informsi tersebut dapat Kita temukan di internet dan biasa&#xA;disebut dengan &lt;em&gt;&lt;strong&gt;Big Data&lt;/strong&gt;&lt;/em&gt;. Untuk lebih jelasnya silahkan simak artikel berikut sampai selesai.&lt;/p&gt;&#xA;&lt;h2 id=&#34;pengertian-big-data&#34;&gt;Pengertian Big Data&lt;/h2&gt;&#xA;&lt;p&gt;Big data adalah informasi yang sangat besar, tidak terstruktur, dan berkembang dengan cepat serta&#xA;diperlukan teknologi inovatif untuk mendapatkan data yang berguna dalam pengambilan keputusan yang&#xA;lebih baik.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tipe Data</title>
       <link>http://localhost:1313/tutorial/python/tipe-data/</link>
       <pubDate>Wed, 25 Sep 2024 14:21:35 +0800</pubDate>
       <guid>http://localhost:1313/tutorial/python/tipe-data/</guid>
-      <description>Dalam dunia pemrograman, tipe data adalah adalah konsep yang sangat penting untuk dipahami. Variabel dapat menyimpan berbagai tipe data yang berbeda, dan setiap tipe data dapat melakukan hal yang berbeda pula.
-Dalam bahasa pemrograman python, setidaknya ada 6 jenis tipe data yang paling sering digunakan, yaitu string, integer, float, boolean, list, tuple, dan dictionary.
-String String atau str adalah tipe data yang kita gunakan untuk menyimpan data dalam bentuk text. String dalam python dibuat menggunakan tanda petik satu &#39;&#39; atau petik dua &amp;quot;&amp;quot;.</description>
+      <description>&lt;p&gt;Dalam dunia pemrograman, tipe data adalah adalah konsep yang sangat penting untuk dipahami. Variabel dapat&#xA;menyimpan berbagai tipe data yang berbeda, dan setiap tipe data dapat melakukan hal yang berbeda pula.&lt;/p&gt;&#xA;&lt;p&gt;Dalam bahasa pemrograman python, setidaknya ada 6 jenis tipe data yang paling sering digunakan, yaitu &lt;em&gt;string&lt;/em&gt;,&#xA;&lt;em&gt;integer&lt;/em&gt;, &lt;em&gt;float&lt;/em&gt;, &lt;em&gt;boolean&lt;/em&gt;, &lt;em&gt;list&lt;/em&gt;, &lt;em&gt;tuple&lt;/em&gt;, dan &lt;em&gt;dictionary&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;string&#34;&gt;String&lt;/h2&gt;&#xA;&lt;p&gt;String atau &lt;em&gt;str&lt;/em&gt; adalah tipe data yang kita gunakan untuk menyimpan data dalam bentuk text. String dalam python&#xA;dibuat menggunakan tanda petik satu &lt;code&gt;&#39;&#39;&lt;/code&gt; atau petik dua &lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt;. Anda dapat menampilkan string dengan menggunakan &lt;code&gt;print()&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pengenalan Variabel</title>
       <link>http://localhost:1313/tutorial/python/variabel/</link>
       <pubDate>Thu, 19 Sep 2024 09:08:55 +0800</pubDate>
       <guid>http://localhost:1313/tutorial/python/variabel/</guid>
-      <description>Pada bagian ini kita akan belajar tentang variabel dalam bahasa pemrograman python.
-Dalam bahasa pemrograman, variabel dikenal sebagai tempat untuk menyimpan data, baik data yang berbentuk text, angka, list, dictionary, ataupun boolean. Lebih lanjut tentang data akan kita pelajari pada materi tentang tipe data.
-Membuat Variabel Di python variabel dapat dibuat dengan menuliskan nama variabel dan memberikan nilai dengan menggunakan tanda sama dengan (=).
-1 2 3 nama = &amp;#39;sofhia&amp;#39; # variabel nama menyimpan nilai string &amp;#39;sofhia&amp;#39; umur = 18 # variabel umur menyimpan nilai int 18 tinggi = 160.</description>
+      <description>&lt;p&gt;Pada bagian ini kita akan belajar tentang variabel dalam bahasa pemrograman python.&lt;/p&gt;&#xA;&lt;p&gt;Dalam bahasa pemrograman, variabel dikenal sebagai tempat untuk menyimpan data, baik data yang&#xA;berbentuk text, angka, &lt;em&gt;list&lt;/em&gt;, &lt;em&gt;dictionary&lt;/em&gt;, ataupun &lt;em&gt;boolean&lt;/em&gt;. Lebih lanjut tentang data akan kita pelajari pada materi&#xA;tentang tipe data.&lt;/p&gt;&#xA;&lt;h2 id=&#34;membuat-variabel&#34;&gt;Membuat Variabel&lt;/h2&gt;&#xA;&lt;p&gt;Di python variabel dapat dibuat dengan menuliskan nama variabel dan memberikan nilai dengan menggunakan tanda sama dengan (&lt;code&gt;=&lt;/code&gt;).&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&#xA;&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&#xA;&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;2&#xA;&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;3&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;nama&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;sofhia&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#7f848e&#34;&gt;# variabel nama menyimpan nilai string &amp;#39;sofhia&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;umur&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d19a66&#34;&gt;18&lt;/span&gt;       &lt;span style=&#34;color:#7f848e&#34;&gt;# variabel umur menyimpan nilai int 18&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e06c75&#34;&gt;tinggi&lt;/span&gt; &lt;span style=&#34;color:#56b6c2&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d19a66&#34;&gt;160.5&lt;/span&gt;  &lt;span style=&#34;color:#7f848e&#34;&gt;# variabel tinggi menyimpan nilai float 160.5&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;h2 id=&#34;aturan-penamaan-variabel&#34;&gt;Aturan penamaan variabel&lt;/h2&gt;&#xA;&lt;p&gt;Penamaan variabel dalam bahasa pemrograman tidak dapat dilakukan denga asal-asalan. Ada aturan-aturan tertentu yang harus dipenuhi&#xA;agar variabel menjadi valid.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Program Pertama</title>
       <link>http://localhost:1313/tutorial/python/program-pertama/</link>
       <pubDate>Thu, 05 Sep 2024 20:29:14 +0800</pubDate>
       <guid>http://localhost:1313/tutorial/python/program-pertama/</guid>
-      <description>Pada tutorial sebelumnya Anda telah belajar tentang bagaimana cara menginstall python di berbagai sistem operasi. Sekarang Anda akan belajar membuat program python sederhana.
-Buat baru lalu isi dengan text di bawah
-1 2 # script.py print(&amp;#39;Hello World&amp;#39;) Buka terminal lalu eksekusi file dengan perintah
-1 python script.py Output:
-1 Hello World Selamat Anda telah berhasil membuat program pertama Anda
-Penjelasan Program Dalam python perintah print digunakan untuk menampilkan nilai ke layar.</description>
+      <description>&lt;p&gt;Pada tutorial sebelumnya Anda telah belajar tentang bagaimana cara menginstall python di berbagai sistem operasi.&#xA;Sekarang Anda akan belajar membuat program python sederhana.&lt;/p&gt;&#xA;&lt;p&gt;Buat baru lalu isi dengan text di bawah&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&#xA;&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&#xA;&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;2&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#7f848e&#34;&gt;# script.py&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e5c07b&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#98c379&#34;&gt;&amp;#39;Hello World&amp;#39;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;Buka terminal lalu eksekusi file dengan perintah&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&#xA;&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fish&#34; data-lang=&#34;fish&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#61afef;font-weight:bold&#34;&gt;python&lt;/span&gt; script.py&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;Output:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&#xA;&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#55595f&#34;&gt;1&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Hello World&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;Selamat Anda telah berhasil membuat program pertama Anda&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tmux Sebagai Terminal Manager</title>
       <link>http://localhost:1313/blog/tmux-sebagai-terminal-manager/</link>
       <pubDate>Sat, 10 Aug 2024 23:49:33 +0800</pubDate>
       <guid>http://localhost:1313/blog/tmux-sebagai-terminal-manager/</guid>
-      <description>&lt;p&gt;Sebagai seorang Programmer, pastinya kita sudah tidak asing dengan terminal dan &lt;em&gt;Command Line
-Interface&lt;/em&gt;. Keduanya adalah dua hal yang saling terkait, sebab untuk mengakses CLI, Kita harus
-menggunakan terminal. Entah itu Alacritty, Kitty, st, dan lain sebagainya. Tak jarang pula kita
-membuka banyak terminal untuk menjalankan berbagai program/proses yang berbeda secara bersamaan. Seperti
-menjalankan server, memantau proses yang berjalan di latar belakang, &lt;em&gt;ngoding&lt;/em&gt; (yah ngoding di terminal dengan neovim),
-debugging, dan lain sebagainya. Tentunya hal ini sangat merepotkan dan sangat tidak efisien jika
-kita harus menjalankan terminal berkali-kali.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Sebagai seorang Programmer, pastinya kita sudah tidak asing dengan terminal dan &lt;em&gt;Command Line&#xA;Interface&lt;/em&gt;. Keduanya adalah dua hal yang saling terkait, sebab untuk mengakses CLI, Kita harus&#xA;menggunakan terminal. Entah itu Alacritty, Kitty, st, dan lain sebagainya. Tak jarang pula kita&#xA;membuka banyak terminal untuk menjalankan berbagai program/proses yang berbeda secara bersamaan. Seperti&#xA;menjalankan server, memantau proses yang berjalan di latar belakang, &lt;em&gt;ngoding&lt;/em&gt; (yah ngoding di terminal dengan neovim),&#xA;debugging, dan lain sebagainya. Tentunya hal ini sangat merepotkan dan sangat tidak efisien jika&#xA;kita harus menjalankan terminal berkali-kali.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 09 Aug 2024 16:47:54 +0800</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>Tentang Blog Blog ini menjadi media saya dalam mendokumentasikan kegiatan kegiatan sehari-hari saya sebagai seorang Software Developer. Blog ini akan berisi berbagai tulisan saya tentang Bahasa Pemrograman, Jaringan Komputer, Database Management System, machile learning, dan segala sesuatu yang berkaitan dengan Ilmu Komputer.</description>
+      <description>&lt;h1 id=&#34;tentang-blog&#34;&gt;Tentang Blog&lt;/h1&gt;&#xA;&lt;p&gt;Blog ini menjadi media saya dalam mendokumentasikan kegiatan kegiatan sehari-hari saya sebagai&#xA;seorang Software Developer. Blog ini akan berisi berbagai tulisan saya tentang Bahasa Pemrograman,&#xA;Jaringan Komputer, Database Management System, machile learning, dan segala sesuatu yang berkaitan&#xA;dengan Ilmu Komputer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Instalasi Python</title>
       <link>http://localhost:1313/tutorial/python/instalasi-python/</link>
       <pubDate>Wed, 07 Aug 2024 12:09:53 +0800</pubDate>
       <guid>http://localhost:1313/tutorial/python/instalasi-python/</guid>
-      <description>Python termasuk ke dalam bahasa pemrograman tingkat tinggi yang mampu berjalan di atas berbagai sistem operasi, entah itu Windows ataupun Linux.
-Untuk mengeksekusi kode Python, Anda perlu menginstall Interpreter Python di sistem operasi yang anda gunakan. Interpreter berfungsi untuk mengubah kode python yang Anda tulis menjadi Kode mesin yang dimengerti oleh komputer.
-Pada tutorial ini saya akan menjelaskan tahapan instalasi python pada sistem operasi Windows dan linux.
-1. Mengekstrak Binary File Cara yang pertama ini berlaku untuk Anda yang menggunakan Windows dan linux.</description>
+      <description>&lt;p&gt;Python termasuk ke dalam bahasa pemrograman tingkat tinggi yang mampu berjalan di atas berbagai&#xA;sistem operasi, entah itu Windows ataupun Linux.&lt;/p&gt;&#xA;&lt;p&gt;Untuk mengeksekusi kode Python, Anda perlu menginstall Interpreter Python di sistem operasi yang&#xA;anda gunakan. Interpreter berfungsi untuk mengubah kode python yang Anda tulis menjadi Kode mesin&#xA;yang dimengerti oleh komputer.&lt;/p&gt;&#xA;&lt;p&gt;Pada tutorial ini saya akan menjelaskan tahapan instalasi python pada sistem operasi Windows dan&#xA;linux.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-mengekstrak-binary-file&#34;&gt;1. Mengekstrak Binary File&lt;/h2&gt;&#xA;&lt;p&gt;Cara yang pertama ini berlaku untuk Anda yang menggunakan Windows dan linux.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pengenalan Bahasa Pemrograman Python</title>
       <link>http://localhost:1313/tutorial/python/pengenalan/</link>
       <pubDate>Mon, 05 Aug 2024 17:54:41 +0800</pubDate>
       <guid>http://localhost:1313/tutorial/python/pengenalan/</guid>
-      <description>&lt;p&gt;Python adalah salah satu bahasa Pemrograman tingkat tinggi (High Level) yang dibuat pada tahun akhir
-tahun 1980 oleh Guido Van Rossum. Bahasa Pemrograman Python menekankan keterbacaan kode dengan
-penggunakan &lt;em&gt;whitespace&lt;/em&gt; yang signifikan. Python juga mendukung berbagai paradigma pemrograman
-seperti &lt;em&gt;Object Oriented Programming&lt;/em&gt; (OOP), &lt;em&gt;Fungsional Programming&lt;/em&gt;, maupun prosedural.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Python adalah salah satu bahasa Pemrograman tingkat tinggi (High Level) yang dibuat pada tahun akhir&#xA;tahun 1980 oleh Guido Van Rossum. Bahasa Pemrograman Python menekankan keterbacaan kode dengan&#xA;penggunakan &lt;em&gt;whitespace&lt;/em&gt; yang signifikan. Python juga mendukung berbagai paradigma pemrograman&#xA;seperti &lt;em&gt;Object Oriented Programming&lt;/em&gt; (OOP), &lt;em&gt;Fungsional Programming&lt;/em&gt;, maupun prosedural.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Archive</title>
+      <link>http://localhost:1313/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/</guid>
+      <description>archives</description>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sistem Digital on Lukhe</title>
     <link>http://localhost:1313/kuliah/sistem-digital/</link>
     <description>Recent content in Sistem Digital on Lukhe</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
     <lastBuildDate>Mon, 21 Apr 2025 19:46:38 +0800</lastBuildDate>
@@ -14,37 +14,27 @@
       <link>http://localhost:1313/kuliah/sistem-digital/03-encoder-dan-decoder/</link>
       <pubDate>Mon, 21 Apr 2025 19:46:38 +0800</pubDate>
       <guid>http://localhost:1313/kuliah/sistem-digital/03-encoder-dan-decoder/</guid>
-      <description>Encoder Encoder adalah rangkaian digital yang berfungsi untuk mengompresi bit. Jadi informasi dalam bentuk bit akan diproses oleh rangkaian ini dan akan diubah ke ukuran yang lebih kecil. Hanya ukuran data yang berubah tetapi informasi di dalamnya tetap sama. Encoder banyak digunakan dalam sistem komunikasi dan pengolahan data.
-Table kebenaran encoder 4 to 2 Input A(3) A(2) A(1) A(0) Output B(1) Output B(0) 0001 0 0 0 1 0 0 0010 0 0 1 0 0 1 0100 0 1 0 0 1 0 1000 1 0 0 0 1 1 Decoder Jika encoder digunakan untuk memperkecil ukuran data, maka decoder melakukan hal yang sebalinya.</description>
+      <description>&lt;h1 id=&#34;encoder&#34;&gt;Encoder&lt;/h1&gt;&#xA;&lt;p&gt;Encoder adalah rangkaian digital yang berfungsi untuk mengompresi bit. Jadi informasi dalam bentuk bit akan diproses oleh rangkaian ini&#xA;dan akan diubah ke ukuran yang lebih kecil. Hanya ukuran data yang berubah tetapi informasi di dalamnya tetap sama. Encoder banyak digunakan dalam sistem komunikasi dan pengolahan data.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/encoder.png&#34; alt=&#34;Encoder&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;table-kebenaran-encoder-4-to-2&#34;&gt;Table kebenaran encoder 4 to 2&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Input&lt;/th&gt;&#xA;          &lt;th&gt;A(3)&lt;/th&gt;&#xA;          &lt;th&gt;A(2)&lt;/th&gt;&#xA;          &lt;th&gt;A(1)&lt;/th&gt;&#xA;          &lt;th&gt;A(0)&lt;/th&gt;&#xA;          &lt;th&gt;Output B(1)&lt;/th&gt;&#xA;          &lt;th&gt;Output B(0)&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0001&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0010&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0100&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1000&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h1 id=&#34;decoder&#34;&gt;Decoder&lt;/h1&gt;&#xA;&lt;p&gt;Jika encoder digunakan untuk memperkecil ukuran data, maka decoder melakukan hal yang sebalinya.&#xA;Decoder akan memperluas atau mengembalikan data ke ukuran asalnya.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Multiplexer Dan Demultiplexer</title>
       <link>http://localhost:1313/kuliah/sistem-digital/03-multiplexer-dan-demultiplexer/</link>
       <pubDate>Mon, 21 Apr 2025 19:21:43 +0800</pubDate>
       <guid>http://localhost:1313/kuliah/sistem-digital/03-multiplexer-dan-demultiplexer/</guid>
-      <description>Multiplexer Multiplexer adalah rangkaian digital yang memproses banyak input dan meneruskannya ke output. Rangkaian ini digunakan untuk memilih data yang akan diproses.
-Table Kebenaran Mux 2 to 1 Selector Output 0 A 1 B Table Kebenaran Mux 4 to 1 S1 S0 Output 0 0 A 0 1 B 1 0 C 1 1 D Di bawah ini adalah gambar multiplexer 2x1 dan 4x1.
-Multiplexer biasa digunakan pada perangkat memori, antarmuka I/O, dan memproses sinyal digital.</description>
+      <description>&lt;h1 id=&#34;multiplexer&#34;&gt;Multiplexer&lt;/h1&gt;&#xA;&lt;p&gt;Multiplexer adalah rangkaian digital yang memproses banyak input dan meneruskannya ke output.&#xA;Rangkaian ini digunakan untuk memilih data yang akan diproses.&lt;/p&gt;&#xA;&lt;h2 id=&#34;table-kebenaran-mux-2-to-1&#34;&gt;Table Kebenaran Mux 2 to 1&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Selector&lt;/th&gt;&#xA;          &lt;th&gt;Output&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;A&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;B&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;table-kebenaran-mux-4-to-1&#34;&gt;Table Kebenaran Mux 4 to 1&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;S1&lt;/th&gt;&#xA;          &lt;th&gt;S0&lt;/th&gt;&#xA;          &lt;th&gt;Output&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;A&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;B&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;0&lt;/td&gt;&#xA;          &lt;td&gt;C&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;D&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Di bawah ini adalah gambar multiplexer 2x1 dan 4x1.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/multiplexer.png&#34; alt=&#34;Multiplexer&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Multiplexer biasa digunakan pada perangkat memori, antarmuka I/O, dan memproses sinyal digital.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Half Adder Dan Full Adder</title>
       <link>http://localhost:1313/kuliah/sistem-digital/02-half-adder-dan-full-adder/</link>
       <pubDate>Mon, 21 Apr 2025 18:47:26 +0800</pubDate>
       <guid>http://localhost:1313/kuliah/sistem-digital/02-half-adder-dan-full-adder/</guid>
-      <description>Half Adder Half adder adalah rangkaian logika yang berfungsi untuk menjumlahkan 2 bit bilangan biner tanpa memproses carry dari hasil operasi sebelumnya. Half adder menghsilkan 2 output. Output pertama disebut sebagai sum dan output kedua disebut sebagai carry. Full Adder Full adder adalah rangkaian logika yang dapat menjumlahkan 3 bit dengan mempertimbangkan carry dari hasil penjumlahan sebelumnya. Rangkaian ini juga menghasilkan 2 output yaitu sum dan carry.</description>
+      <description>&lt;h1 id=&#34;half-adder&#34;&gt;Half Adder&lt;/h1&gt;&#xA;&lt;p&gt;Half adder adalah rangkaian logika yang berfungsi untuk menjumlahkan 2 bit bilangan biner tanpa memproses &lt;code&gt;carry&lt;/code&gt; dari hasil&#xA;operasi sebelumnya. Half adder menghsilkan 2 output. Output pertama disebut sebagai &lt;code&gt;sum&lt;/code&gt; dan output kedua disebut sebagai &lt;code&gt;carry&lt;/code&gt;.&#xA;&lt;img src=&#34;http://localhost:1313/img/halfadder.png&#34; alt=&#34;Half Adder&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;full-adder&#34;&gt;Full Adder&lt;/h1&gt;&#xA;&lt;p&gt;Full adder adalah rangkaian logika yang dapat menjumlahkan 3 bit dengan mempertimbangkan &lt;code&gt;carry&lt;/code&gt; dari hasil penjumlahan sebelumnya.&#xA;Rangkaian ini juga menghasilkan 2 output yaitu &lt;code&gt;sum&lt;/code&gt; dan &lt;code&gt;carry&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/fulladder.png&#34; alt=&#34;Full Adder&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sistem Bilangan Digital</title>
       <link>http://localhost:1313/kuliah/sistem-digital/01-sistem-bilangan-digital/</link>
       <pubDate>Mon, 21 Apr 2025 18:45:11 +0800</pubDate>
       <guid>http://localhost:1313/kuliah/sistem-digital/01-sistem-bilangan-digital/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pertemuan Satu</title>
-      <link>http://localhost:1313/kuliah/sistem-digital/pertemuan-satu/</link>
-      <pubDate>Sat, 05 Apr 2025 10:07:12 +0800</pubDate>
-      <guid>http://localhost:1313/kuliah/sistem-digital/pertemuan-satu/</guid>
       <description></description>
     </item>
   </channel>

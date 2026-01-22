@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Lukhe</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Lukhe</description>
-    <generator>Hugo -- 0.126.2</generator>
+    <generator>Hugo</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
     <lastBuildDate>Thu, 05 Sep 2024 20:29:14 +0800</lastBuildDate>
@@ -12,14 +12,14 @@
     <item>
       <title>Pemrograman</title>
       <link>http://localhost:1313/tags/pemrograman/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Sep 2024 20:29:14 +0800</pubDate>
       <guid>http://localhost:1313/tags/pemrograman/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
       <link>http://localhost:1313/tags/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Sep 2024 20:29:14 +0800</pubDate>
       <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Struktur Data dan Algoritma on Lukhe</title>
     <link>http://localhost:1313/kuliah/dsa/</link>
     <description>Recent content in Struktur Data dan Algoritma on Lukhe</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo</generator>
     <language>id</language>
     <copyright>Akmal</copyright>
     <lastBuildDate>Thu, 03 Jul 2025 06:15:58 +0800</lastBuildDate>
@@ -14,13 +14,7 @@
       <link>http://localhost:1313/kuliah/dsa/pointer/</link>
       <pubDate>Thu, 03 Jul 2025 06:15:58 +0800</pubDate>
       <guid>http://localhost:1313/kuliah/dsa/pointer/</guid>
-      <description>&lt;p&gt;Dalam dunia programming kita mengenal yang namanya pointer. Pointer adalah variabel yang menyimpan alamat memori dari variable lain sebagai nilainya. Pointer memiliki dua jenis operator. Yaitu deference operator dan reference operator.&lt;/p&gt;
-&lt;p&gt;Contoh Program 1:&lt;/p&gt;
-&lt;p&gt;Deference operator digunakan untuk mendapatkan alamat memori dari suatu variabel. Deference operator dibuat dengan menambahkan simbol (&amp;amp;) di depan nama variabel. Silahkan lihat contoh program di bawah.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Program 1&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/dsa/pointer-contoh-program-1.png&#34;&gt;
-Output Program 1:
-&lt;img alt=&#34;Ouput Program 1&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/dsa/pointer-output-program-1.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Pada baris ke-10, terdapat tanda reference operator (&amp;amp;) didepan variabel angka dan outputnya akan menjadi alamat memori (bilangan hexadesimal). Berbeda halnya ketika mencetak variabel angka pada baris ke-11, maka yang akan ditampilkan adalah isi dari variabel angka itu sendir yaitu 20.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Dalam dunia programming kita mengenal yang namanya pointer. Pointer adalah variabel yang menyimpan alamat memori dari variable lain sebagai nilainya. Pointer memiliki dua jenis operator. Yaitu deference operator dan reference operator.&lt;/p&gt;&#xA;&lt;p&gt;Contoh Program 1:&lt;/p&gt;&#xA;&lt;p&gt;Deference operator digunakan untuk mendapatkan alamat memori dari suatu variabel. Deference operator dibuat dengan menambahkan simbol (&amp;amp;) di depan nama variabel. Silahkan lihat contoh program di bawah.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/dsa/pointer-contoh-program-1.png&#34; alt=&#34;Program 1&#34;&gt;&#xA;Output Program 1:&#xA;&lt;img src=&#34;http://localhost:1313/img/dsa/pointer-output-program-1.png&#34; alt=&#34;Ouput Program 1&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Pada baris ke-10, terdapat tanda reference operator (&amp;amp;) didepan variabel angka dan outputnya akan menjadi alamat memori (bilangan hexadesimal). Berbeda halnya ketika mencetak variabel angka pada baris ke-11, maka yang akan ditampilkan adalah isi dari variabel angka itu sendir yaitu 20.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
